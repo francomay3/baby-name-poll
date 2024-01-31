@@ -1,7 +1,8 @@
-import { Button, Slider, Input, Collapse, Divider } from "antd";
+import { Button, Slider, Input, Collapse, Divider, Typography } from "antd";
 import styled from "styled-components";
 import { LogoutAction, Names, SetNewValue, SetNewName } from "../models";
 import { useState, Fragment } from "react";
+import useScrollTop from "../hooks/useScrollTop";
 
 const Logout = styled.div`
   display: flex;
@@ -60,9 +61,10 @@ const NamesList = ({
 }) => {
   const [newNameInput, setNewNameInput] = useState<string>("");
   const [addingName, setAddingName] = useState<boolean>(false);
+  useScrollTop();
   return (
     <Wrapper>
-      <h2>Hola {userId}</h2>
+      <Typography.Title level={4}>Hola {userId}</Typography.Title>
       <Logout>
         <span>no sos {userId}?</span>
         <Button type="primary" onClick={logout}>
@@ -73,22 +75,22 @@ const NamesList = ({
       <Collapse
         items={[
           {
-            label: "Info",
+            label: "Un poco de ayuda",
             children: (
               <>
-                <p>
+                <Typography.Paragraph>
                   Bueno. Aca podes agregar nombres y tambien ver los nombres que
                   agregaron los demas.
-                </p>
-                <p>
+                </Typography.Paragraph>
+                <Typography.Paragraph>
                   podes decidir cuanto te gusta cada nombre usando la manijita.
                   si el color de la barra es gris, es porque todavia no votaste
                   ese nombre.
-                </p>
-                <p>
+                </Typography.Paragraph>
+                <Typography.Paragraph>
                   no hace falta guardar los cambios, todo se sincroniza
                   automaticamente.
-                </p>
+                </Typography.Paragraph>
               </>
             ),
           },

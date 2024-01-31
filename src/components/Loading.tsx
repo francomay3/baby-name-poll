@@ -1,8 +1,16 @@
+import { Spin } from "antd";
+
 const Loading = () => {
   return (
-    <div>
-      <h1>Loading...</h1>
-    </div>
+    <Spin
+      tip="Cargado..."
+      size="large"
+      style={{
+        marginTop: "50%",
+      }}
+    >
+      <div className="content" />
+    </Spin>
   );
 };
 

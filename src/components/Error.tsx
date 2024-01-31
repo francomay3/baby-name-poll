@@ -1,8 +1,11 @@
+import { Typography } from "antd";
+
 const Error = () => {
   return (
-    <div>
-      <h1>Error</h1>
-    </div>
+    <>
+      <Typography.Title>404</Typography.Title>
+      <Typography.Title level={2}>Page not found</Typography.Title>
+    </>
   );
 };
 

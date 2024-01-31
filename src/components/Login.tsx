@@ -2,16 +2,10 @@ import { LoginAction, SetNewUser, Users } from "../models";
 import styled from "styled-components";
 import Avatar from "./Avatar";
 import { PlusOutlined } from "@ant-design/icons";
-import {
-  Divider,
-  Modal,
-  ColorPickerProps,
-  GetProp,
-  Button,
-  Input,
-  ColorPicker,
-} from "antd";
+import { Divider, Button, Typography, Card } from "antd";
 import { useState } from "react";
+import NewUserModal from "./NewUserModal";
+import useScrollTop from "../hooks/useScrollTop";
 
 const UserList = styled.div`
   display: flex;
@@ -21,25 +15,13 @@ const UserList = styled.div`
   gap: 1rem;
   overflow-y: scroll;
   height: 100%;
-  align-items: flex-start;
+  align-items: stretch;
 `;
 
 const AvatarAndName = styled.div`
   display: flex;
   gap: 1rem;
   align-items: center;
-
-  & > span {
-    font-size: 1.275rem;
-  }
-`;
-
-type Color = GetProp<ColorPickerProps, "value">;
-
-const ModalInner = styled.div`
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
 `;
 
 const Login = ({
@@ -53,73 +35,57 @@ const Login = ({
 }) => {
   const [addUserModalVisible, setAddUserModalVisible] =
     useState<boolean>(false);
-  const [newUserId, setNewUserId] = useState<string>("");
-  const [newUserColor, setNewUserColor] = useState<Color>("#1677ff");
-  const [newUserHex, setNewUserHex] = useState<string>("");
+  useScrollTop();
 
   return (
     <>
       <UserList>
-        <h1 style={{ marginInline: "auto" }}>Quien te pensas que sos?</h1>
+        <Typography.Title level={4}>Quien te pensas que sos?</Typography.Title>
         {Object.keys(users).map((userId) => {
           const user = users[userId];
           return (
-            <AvatarAndName>
-              <Avatar
-                key={userId}
-                size={80}
-                onClick={() => login(userId)}
-                user={user}
-                userId={userId}
-              />
-              <span>{userId}</span>
-            </AvatarAndName>
+            <Card key={userId} onClick={() => login(userId)}>
+              <AvatarAndName>
+                <Avatar
+                  key={userId}
+                  size={50}
+                  onClick={() => login(userId)}
+                  user={user}
+                  userId={userId}
+                />
+                <Typography.Text>{userId}</Typography.Text>
+              </AvatarAndName>
+            </Card>
           );
         })}
         <Divider />
-        <AvatarAndName onClick={() => setAddUserModalVisible((prev) => !prev)}>
-          <Button
-            style={{
-              height: "80px",
-              width: "80px",
-            }}
-            type="primary"
-            shape="circle"
-            icon={
-              <PlusOutlined
-                style={{
-                  fontSize: "1.5rem",
-                }}
-              />
-            }
-          />
-          <span>Nuevo Usuario</span>
-        </AvatarAndName>
+        <Card onClick={() => setAddUserModalVisible((prev) => !prev)}>
+          <AvatarAndName>
+            <Button
+              style={{
+                height: "50px",
+                width: "50px",
+              }}
+              type="primary"
+              shape="circle"
+              icon={
+                <PlusOutlined
+                  style={{
+                    fontSize: "1.5rem",
+                  }}
+                />
+              }
+            />
+            <span>Nuevo Usuario</span>
+          </AvatarAndName>
+        </Card>
       </UserList>
-      <Modal
-        title="Tu Nombre"
+      <NewUserModal
+        setNewUser={setNewUser}
+        login={login}
         open={addUserModalVisible}
-        onOk={() => {
-          setNewUser(newUserId, newUserHex);
-          login(newUserId);
-        }}
-        onCancel={() => setAddUserModalVisible(false)}
-      >
-        <ModalInner>
-          <Input
-            placeholder="Javier Milei"
-            value={newUserId}
-            onChange={(e) => setNewUserId(e.target.value)}
-          />
-          <ColorPicker
-            value={newUserColor}
-            onChange={(color, hex) => {
-              setNewUserHex(hex);
-              setNewUserColor(color);
-            }}
-          />
-        </ModalInner>
-      </Modal>
+        close={() => setAddUserModalVisible(false)}
+      />
     </>
   );
 };
