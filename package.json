@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://francomay3.github.io/baby-name-poll",
+  "homepage": "https://francomay3.github.io/baby-name-poll/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
