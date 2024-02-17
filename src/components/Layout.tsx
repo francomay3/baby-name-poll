@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { LogoutAction, User } from "../models";
 import Header from "./Header";
+import Loading from "./Loading";
+import Error from "./Error";
 
 const Main = styled.main`
   padding: 1rem;
@@ -8,19 +10,25 @@ const Main = styled.main`
 
 const Layout = ({
   children,
-  user,
+  error,
+  loading,
   logout,
+  user,
   userId,
 }: {
   children: React.ReactNode;
-  user: User | null;
+  error: boolean;
+  loading: boolean;
   logout: LogoutAction;
+  user: User | null;
   userId?: string | null;
 }) => {
   return (
     <>
       <Header user={user} userId={userId} logout={logout} />
-      <Main>{children}</Main>
+      {loading && <Loading />}
+      {error && <Error />}
+      {!loading && !error && <Main>{children}</Main>}
     </>
   );
 };

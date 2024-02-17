@@ -6,6 +6,7 @@ import { Divider, Button, Typography, Card } from "antd";
 import { useState } from "react";
 import NewUserModal from "./NewUserModal";
 import useScrollTop from "../hooks/useScrollTop";
+import { useNavigate } from "react-router-dom";
 
 const UserList = styled.div`
   display: flex;
@@ -13,7 +14,6 @@ const UserList = styled.div`
   align-items: center;
   flex-direction: column;
   gap: 1rem;
-  overflow-y: scroll;
   height: 100%;
   align-items: stretch;
 `;
@@ -30,12 +30,22 @@ const Login = ({
   setNewUser,
 }: {
   login: LoginAction;
-  users: Users;
+  users: Users | null;
   setNewUser: SetNewUser;
 }) => {
+  const navigate = useNavigate();
   const [addUserModalVisible, setAddUserModalVisible] =
     useState<boolean>(false);
   useScrollTop();
+
+  if (!users) {
+    return null;
+  }
+
+  const loginAndMove = (userId: string) => {
+    login(userId);
+    navigate("/baby-name-poll/nombres");
+  };
 
   return (
     <>
@@ -44,12 +54,12 @@ const Login = ({
         {Object.keys(users).map((userId) => {
           const user = users[userId];
           return (
-            <Card key={userId} onClick={() => login(userId)}>
+            <Card key={userId} onClick={() => loginAndMove(userId)}>
               <AvatarAndName>
                 <Avatar
                   key={userId}
                   size={50}
-                  onClick={() => login(userId)}
+                  onClick={() => loginAndMove(userId)}
                   user={user}
                   userId={userId}
                 />

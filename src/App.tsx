@@ -1,46 +1,77 @@
 import useDatabase from "./hooks/useDatabase";
 import useAuth from "./hooks/useAuth";
-import Loading from "./components/Loading";
-import Error from "./components/Error";
 import Login from "./components/Login";
 import NamesList from "./components/NamesList";
 import Layout from "./components/Layout";
 import Ranking from "./components/Ranking";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import UserDashboard from "./components/UserDashboard";
+import Main from "./components/Main";
+import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
+
+const RedirectToHome = () => {
+  const navigate = useNavigate();
+  useEffect(() => {
+    navigate("/baby-name-poll");
+  }, [navigate]);
+  return null;
+};
 
 const App = () => {
   const { data, loading, error, setNewValue, setNewName, setNewUser } =
     useDatabase();
   const { userId, login, logout } = useAuth();
-  let Child;
 
-  if (!data || loading) {
-    Child = <Loading />;
-  } else if (error) {
-    Child = <Error />;
-  } else if (!userId) {
-    Child = <Login users={data.users} login={login} setNewUser={setNewUser} />;
-  } else {
-    Child = (
-      <NamesList
-        setNewName={setNewName}
-        logout={logout}
-        userId={userId}
-        names={data.names}
-        setNewValue={setNewValue}
-      />
-    );
-  }
-
-  Child = <Ranking data={data} />;
+  const user = userId ? data?.users[userId] || null : null;
 
   return (
-    <Layout
-      userId={userId}
-      user={userId ? data?.users[userId] || null : null}
-      logout={logout}
-    >
-      {Child}
-    </Layout>
+    <BrowserRouter>
+      <Layout
+        userId={userId}
+        user={user}
+        logout={logout}
+        loading={!data || loading}
+        error={error}
+      >
+        <Routes>
+          <Route path="baby-name-poll" element={<Main />} />
+          <Route
+            path="baby-name-poll/ranking"
+            element={<Ranking data={data} />}
+          />
+          <Route
+            path="baby-name-poll/login"
+            element={
+              <Login
+                users={data?.users || null}
+                login={login}
+                setNewUser={setNewUser}
+              />
+            }
+          />
+          <Route
+            path="baby-name-poll/nombres"
+            element={
+              <NamesList
+                setNewName={setNewName}
+                logout={logout}
+                userId={userId}
+                names={data?.names || null}
+                setNewValue={setNewValue}
+              />
+            }
+          />
+          <Route
+            path="baby-name-poll/usuario"
+            element={
+              <UserDashboard userId={userId} user={user} logout={logout} />
+            }
+          />
+          <Route path="*" element={<RedirectToHome />} />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
   );
 };
 

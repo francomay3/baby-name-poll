@@ -1,9 +1,10 @@
 import styled from "styled-components";
-import { LogoutAction, User } from "../models";
+import { User } from "../models";
 import Avatar from "./Avatar";
 import { MenuUnfoldOutlined, MenuFoldOutlined } from "@ant-design/icons";
 import { useState } from "react";
-import { Drawer, Typography } from "antd";
+import { Drawer, Space, Typography } from "antd";
+import { Link, useNavigate } from "react-router-dom";
 
 const Wrapper = styled.header`
   padding-block: 0.5rem;
@@ -23,13 +24,12 @@ const Wrapper = styled.header`
 
 function Header({
   user,
-  logout,
   userId,
 }: {
   user: User | null;
-  logout: LogoutAction;
   userId?: string | null | undefined;
 }) {
+  const navigate = useNavigate();
   const [collapsed, setCollapsed] = useState(true);
 
   return (
@@ -46,10 +46,14 @@ function Header({
             onClick={() => setCollapsed(!collapsed)}
           />
         )}
-        <Typography.Title level={4}>
+        <Typography.Title level={4} onClick={() => navigate("baby-name-poll")}>
           Consulta popular para la eleccion del nombre del neonato
         </Typography.Title>
-        <Avatar user={user} userId={userId} onClick={logout} />
+        <Avatar
+          user={user}
+          userId={userId}
+          onClick={() => navigate("/baby-name-poll/usuario")}
+        />
       </Wrapper>
       <Drawer
         title="Menu"
@@ -58,9 +62,35 @@ function Header({
         onClose={() => setCollapsed((prev) => !prev)}
         open={!collapsed}
       >
-        <p>Some contents...</p>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
+        <Space direction="vertical">
+          <Typography.Text>
+            <Link
+              onClick={() => setCollapsed(true)}
+              to="/baby-name-poll/nombres"
+            >
+              Nombres
+            </Link>
+          </Typography.Text>
+          <Typography.Text>
+            <Link
+              onClick={() => setCollapsed(true)}
+              to="/baby-name-poll/ranking"
+            >
+              Ranking
+            </Link>
+          </Typography.Text>
+
+          {user && (
+            <Typography.Text>
+              <Link
+                onClick={() => setCollapsed(true)}
+                to="/baby-name-poll/usuario"
+              >
+                {userId}
+              </Link>
+            </Typography.Text>
+          )}
+        </Space>
       </Drawer>
     </>
   );

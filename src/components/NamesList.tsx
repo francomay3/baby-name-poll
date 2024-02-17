@@ -1,8 +1,9 @@
 import { Button, Slider, Input, Collapse, Divider, Typography } from "antd";
 import styled from "styled-components";
 import { LogoutAction, Names, SetNewValue, SetNewName } from "../models";
-import { useState, Fragment } from "react";
+import { useState, Fragment, useEffect } from "react";
 import useScrollTop from "../hooks/useScrollTop";
+import { useNavigate } from "react-router-dom";
 
 const Logout = styled.div`
   display: flex;
@@ -54,20 +55,45 @@ const NamesList = ({
   setNewName,
 }: {
   logout: LogoutAction;
-  userId: string;
-  names: Names;
+  userId: string | null;
+  names: Names | null;
   setNewValue: SetNewValue;
   setNewName: SetNewName;
 }) => {
+  const navigate = useNavigate();
   const [newNameInput, setNewNameInput] = useState<string>("");
   const [addingName, setAddingName] = useState<boolean>(false);
   useScrollTop();
+
+  useEffect(() => {
+    if (!userId) {
+      navigate("/baby-name-poll/login");
+    }
+  }, [userId, navigate]);
+
+  if (!userId || !names) {
+    return null;
+  }
   return (
     <Wrapper>
-      <Typography.Title level={4}>Hola {userId}</Typography.Title>
+      <Typography.Title level={4}>ATENCION! 🛑</Typography.Title>
+      <Typography.Text>
+        Si no sos{" "}
+        <Typography.Text mark strong>
+          {userId}
+        </Typography.Text>
+        , por favor cambia de usuario. En esta app no hay contraseñas, asi que
+        cualquiera puede cambiar los votos de los demas. no lo hagas...
+      </Typography.Text>
       <Logout>
         <span>no sos {userId}?</span>
-        <Button type="primary" onClick={logout}>
+        <Button
+          style={{
+            background: "#ff930e",
+          }}
+          type="primary"
+          onClick={logout}
+        >
           Cambiar de usuario
         </Button>
       </Logout>
@@ -75,7 +101,7 @@ const NamesList = ({
       <Collapse
         items={[
           {
-            label: "Un poco de ayuda",
+            label: "Un poco de ayuda 💡",
             children: (
               <>
                 <Typography.Paragraph>
@@ -88,8 +114,22 @@ const NamesList = ({
                   ese nombre.
                 </Typography.Paragraph>
                 <Typography.Paragraph>
+                  si dejas un nombre sin votar, es como si le pusieras un 1. asi
+                  que vota a todos.
+                </Typography.Paragraph>
+                <Typography.Paragraph>
+                  si alguien agrega un nuevo nombre, automaticamente lo vas a
+                  poder ver vos tambien. asi que tendria sentido entrar cada
+                  tanto para votar los nuevos nombres que alguien haya agregado.
+                </Typography.Paragraph>
+                <Typography.Paragraph>
                   no hace falta guardar los cambios, todo se sincroniza
                   automaticamente.
+                </Typography.Paragraph>
+                <Typography.Paragraph>
+                  si cuesta scrollear para abajo, es probablemente porque estas
+                  seleccionando las manijitas. desliza el dedo por la columna de
+                  los nombres.
                 </Typography.Paragraph>
               </>
             ),
@@ -123,7 +163,7 @@ const NamesList = ({
                 flex: 1,
               }}
             >
-              Agregar Nombre +
+              Agregar Nuevo Nombre ✨
             </Button>
           )}
         </AddNameElement>
