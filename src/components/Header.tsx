@@ -64,6 +64,11 @@ function Header({
       >
         <Space direction="vertical">
           <Typography.Text>
+            <Link onClick={() => setCollapsed(true)} to="/baby-name-poll/">
+              Home
+            </Link>
+          </Typography.Text>
+          <Typography.Text>
             <Link
               onClick={() => setCollapsed(true)}
               to="/baby-name-poll/nombres"

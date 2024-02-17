@@ -12,7 +12,6 @@ const Layout = ({
   children,
   error,
   loading,
-  logout,
   user,
   userId,
 }: {
@@ -25,7 +24,7 @@ const Layout = ({
 }) => {
   return (
     <>
-      <Header user={user} userId={userId} logout={logout} />
+      <Header user={user} userId={userId} />
       {loading && <Loading />}
       {error && <Error />}
       {!loading && !error && <Main>{children}</Main>}
