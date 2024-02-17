@@ -5,12 +5,14 @@ import Error from "./components/Error";
 import Login from "./components/Login";
 import NamesList from "./components/NamesList";
 import Layout from "./components/Layout";
+import Ranking from "./components/Ranking";
 
 const App = () => {
   const { data, loading, error, setNewValue, setNewName, setNewUser } =
     useDatabase();
   const { userId, login, logout } = useAuth();
   let Child;
+
   if (!data || loading) {
     Child = <Loading />;
   } else if (error) {
@@ -28,6 +30,8 @@ const App = () => {
       />
     );
   }
+
+  Child = <Ranking data={data} />;
 
   return (
     <Layout
