@@ -24,7 +24,11 @@ const Main = () => {
           Votar nombres 📝
         </Button>
       </Link>
-      <Link to="/baby-name-poll/ranking">ranking</Link>
+      <Link to="/baby-name-poll/ranking">
+        <Button type="primary" size="large">
+          Ver ranking 🏆
+        </Button>
+      </Link>
     </Space>
   );
 };
