@@ -146,8 +146,8 @@ const NamesList = ({
               },
             }}
             style={{ flex: 1 }}
-            value={exampleValue ?? 5}
-            defaultValue={exampleValue ?? 5}
+            value={exampleValue ?? 2}
+            defaultValue={exampleValue ?? 2}
             min={1}
             max={10}
             onChange={(newExampleValue) => setExampleValue(newExampleValue)}
@@ -204,9 +204,9 @@ const NamesList = ({
                     backgroundColor: getSentimentColor(value),
                   },
                 }}
-                value={value ?? 5}
+                value={value ?? 2}
                 style={{ flex: 1 }}
-                defaultValue={value ?? 5}
+                defaultValue={value ?? 2}
                 min={1}
                 max={10}
                 onChange={(value) => setNewValue(userId, nameId, value)}
