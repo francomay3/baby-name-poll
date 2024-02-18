@@ -40,6 +40,15 @@ const RankingCard = styled(Card)<{ index: number }>`
   }
 `;
 
+function standardDeviation(arr: number[]) {
+  const n = arr.length;
+  const mean = arr.reduce((a, b) => a + b) / n;
+  const deviation = Math.sqrt(
+    arr.map((x) => Math.pow(x - mean, 2)).reduce((a, b) => a + b) / n
+  );
+  return deviation;
+}
+
 const getTotalValueByName: (data: Data, name: string) => number = (
   data,
   name
@@ -50,7 +59,10 @@ const getTotalValueByName: (data: Data, name: string) => number = (
   const values = Object.values(data.names[name].votes)
     .map((vote) => vote.value)
     .filter((value) => value > 0);
-  return values.reduce((acc, value) => acc + value, 0);
+  const standardDev = standardDeviation(values);
+  const total = values.reduce((acc, value) => acc + value, 0);
+  const average = total / values.length;
+  return Math.round((total * average) / (standardDev + 1));
 };
 
 const Ranking = ({ data }: { data: Data }) => {
@@ -76,7 +88,6 @@ const Ranking = ({ data }: { data: Data }) => {
         >
           Ranking de nombres 🥁
         </Title>
-
         {topNames.map((name, index) => (
           <RankingCard key={index} index={index}>
             <Title level={4} className="name">
