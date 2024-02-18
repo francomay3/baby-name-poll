@@ -2,6 +2,8 @@ import { Modal, Input, ColorPicker, ColorPickerProps, GetProp } from "antd";
 import { useState } from "react";
 import styled from "styled-components";
 import { LoginAction, SetNewUser } from "../models";
+import { routes } from "../constants";
+import { useNavigate } from "react-router-dom";
 
 const ModalInner = styled.div`
   display: grid;
@@ -32,6 +34,7 @@ function NewUserModal({ open, close, setNewUser, login }: NewUserModalProps) {
   const [newUserId, setNewUserId] = useState<string>("");
   const [newUserColor, setNewUserColor] = useState<Color>("#1677ff");
   const [newUserHex, setNewUserHex] = useState<string>("");
+  const navigate = useNavigate();
   return (
     <Modal
       title="Nuevo Usuario"
@@ -39,6 +42,7 @@ function NewUserModal({ open, close, setNewUser, login }: NewUserModalProps) {
       onOk={() => {
         setNewUser(newUserId, newUserHex);
         login(newUserId);
+        navigate(routes.vote);
       }}
       onCancel={close}
     >

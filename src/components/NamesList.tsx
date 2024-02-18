@@ -2,7 +2,7 @@ import { Button, Slider, Input, Divider, Typography, Space } from "antd";
 import styled from "styled-components";
 import { LogoutAction, Names, SetNewValue, SetNewName } from "../models";
 import { useState, Fragment, useEffect } from "react";
-import useScrollTop from "../hooks/useScrollTop";
+import useScrollTopOnMount from "../hooks/useScrollTop";
 import { useNavigate } from "react-router-dom";
 import { routes } from "../constants";
 
@@ -88,7 +88,7 @@ const NamesList = ({
   const navigate = useNavigate();
   const [newNameInput, setNewNameInput] = useState<string>("");
   const [addingName, setAddingName] = useState<boolean>(false);
-  useScrollTop();
+  useScrollTopOnMount();
 
   useEffect(() => {
     if (!userId) {

@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
-import { getDatabase } from "firebase/database";
 import { initializeApp } from "firebase/app";
-import { onValue, set, ref as dbRef } from "firebase/database";
-import { debounce } from "lodash";
+import { getDatabase, update, onValue, ref as dbRef } from "firebase/database";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBp4zb6io9lAV4YV0ldgwLeqTujI1FD3sU",
@@ -73,46 +71,80 @@ const useDatabase = () => {
     return () => unsubscribe();
   }, []);
 
-  const syncData = debounce(async (newData: Data) => {
-    const ref = dbRef(db);
-    try {
-      setIsSyncing(true);
-      await set(ref, newData);
-      setIsSyncing(false);
-    } catch (error) {
-      console.error(error);
-    }
-  }, 500);
-
-  const setDataHandler = async (newData: Data) => {
-    if (loading || error) return;
-    setData(newData);
-    await syncData(newData);
-  };
-
-  const setNewValue: SetNewValue = (userId, nameId, value) => {
-    if (!data) return;
-    const newData = structuredClone(data);
-    newData.names[nameId].votes[userId] = { value };
-    setDataHandler(newData);
+  const syncNewUser = (userId: string, newUser: User) => {
+    setIsSyncing(true);
+    const userRef = dbRef(db, `users/${userId}`);
+    update(userRef, newUser)
+      .catch((error) => {
+        console.error("Error updating document: ", error);
+      })
+      .then(() => setIsSyncing(false));
   };
 
   const setNewUser = (userId: string, color: string) => {
-    if (!data) return;
+    if (!userId || !data) return;
+
+    const newUser = { color };
+
     const newData = structuredClone(data);
-    newData.users[userId] = { color };
-    setDataHandler(newData);
+    newData.users[userId] = newUser;
+    setData(newData);
+    syncNewUser(userId, newUser);
+  };
+
+  const syncNewValue = (userId: string, nameId: string, newValue: number) => {
+    setIsSyncing(true);
+    const valueRef = dbRef(db, `names/${nameId}/votes/${userId}`);
+    update(valueRef, { value: newValue })
+      .catch((error) => {
+        console.error("Error updating document: ", error);
+      })
+      .then(() => setIsSyncing(false));
+  };
+
+  const setNewValue: SetNewValue = (userId, nameId, value) => {
+    if (!userId || !nameId || !data || !value) return;
+
+    const newData = structuredClone(data);
+
+    if (!newData) {
+      return;
+    }
+
+    const newValue = { value };
+    newData.names[nameId].votes[userId] = newValue;
+    setData(newData);
+    syncNewValue(userId, nameId, value);
+  };
+
+  const syncNewName = (nameId: string, newName: Name) => {
+    setIsSyncing(true);
+    const nameRef = dbRef(db, `names/${nameId}`);
+    update(nameRef, newName)
+      .catch((error) => {
+        console.error("Error updating document: ", error);
+      })
+      .then(() => setIsSyncing(false));
   };
 
   const setNewName = (nameId: string) => {
-    if (!nameId || !data || data.names[nameId]) return;
+    if ((!nameId || !data || data.names[nameId], loading || error)) return;
+
     const newData = structuredClone(data);
-    newData.names[nameId] = {
+
+    if (!newData) {
+      return;
+    }
+
+    const newName = {
       votes: {
         none: { value: -1 },
       },
     };
-    setDataHandler(newData);
+    newData.names[nameId] = newName;
+
+    setData(newData);
+    syncNewName(nameId, newName);
   };
 
   return {

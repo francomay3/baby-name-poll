@@ -1,0 +1,4931 @@
+{
+    "names": {
+        "Aitana": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 7
+                },
+                "Neits": {
+                    "value": 5
+                },
+                "Tía Vic": {
+                    "value": 2
+                },
+                "franco": {
+                    "value": 4
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Aleksandra ": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Alex": {
+                    "value": 5
+                },
+                "Candelupix": {
+                    "value": 3
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Eduardo": {
+                    "value": 3
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 1
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Ine": {
+                    "value": 4
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 6
+                },
+                "Tía Vic": {
+                    "value": 3
+                },
+                "franco": {
+                    "value": 4
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Alina": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 6
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Eduardo": {
+                    "value": 3
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "El Matrex \"Jeringa\" Monzón ": {
+                    "value": 8
+                },
+                "Erwin": {
+                    "value": 8
+                },
+                "Fangio vanni": {
+                    "value": 6
+                },
+                "Fede": {
+                    "value": 3
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Ine": {
+                    "value": 1
+                },
+                "Ivar": {
+                    "value": 6
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 1
+                },
+                "Kevin": {
+                    "value": 3
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Lula": {
+                    "value": 7
+                },
+                "Neits": {
+                    "value": 4
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 4
+                },
+                "franco": {
+                    "value": 6
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Almendra": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Alex": {
+                    "value": 5
+                },
+                "Batiabue": {
+                    "value": 8
+                },
+                "Candelupix": {
+                    "value": 7
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Eduardo": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 2
+                },
+                "Fangio vanni": {
+                    "value": 6
+                },
+                "Fede": {
+                    "value": 1
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Ine": {
+                    "value": 1
+                },
+                "Ivar": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 1
+                },
+                "Kevin": {
+                    "value": 5
+                },
+                "Lamejortia2da": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 5
+                },
+                "Neits": {
+                    "value": 8
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 4
+                },
+                "franco": {
+                    "value": 2
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Amanda": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 10
+                },
+                "Cindy": {
+                    "value": 8
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 7
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 5
+                },
+                "Ine": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 6
+                },
+                "Tía Vic": {
+                    "value": 6
+                },
+                "franco": {
+                    "value": 7
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Ana": {
+            "votes": {
+                "Batiabue": {
+                    "value": 7
+                },
+                "Candelupix": {
+                    "value": 2
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 6
+                },
+                "Fangio vanni": {
+                    "value": 10
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 9
+                },
+                "Ine": {
+                    "value": 4
+                },
+                "Ivar": {
+                    "value": 2
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 1
+                },
+                "Kevin": {
+                    "value": 4
+                },
+                "Lamejortia2da": {
+                    "value": 8
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 5
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Niclas": {
+                    "value": 8
+                },
+                "Riyanka": {
+                    "value": 9
+                },
+                "Tía Vic": {
+                    "value": 8
+                },
+                "Xime": {
+                    "value": 7
+                },
+                "franco": {
+                    "value": 5
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Anke": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 4
+                },
+                "Candelupix": {
+                    "value": 2
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 10
+                },
+                "Eduardo": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "El Matrex \"Jeringa\" Monzón ": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 3
+                },
+                "Fangio vanni": {
+                    "value": 1
+                },
+                "Fede": {
+                    "value": 3
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 4
+                },
+                "Ine": {
+                    "value": 1
+                },
+                "Ivar": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 1
+                },
+                "Kevin": {
+                    "value": 2
+                },
+                "Lamejortia2da": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 2
+                },
+                "franco": {
+                    "value": 3
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Ann": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 4
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 3
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Eduardo": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 7
+                },
+                "Ine": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Lula": {
+                    "value": 9
+                },
+                "Neits": {
+                    "value": 9
+                },
+                "Tía Vic": {
+                    "value": 7
+                },
+                "franco": {
+                    "value": 2
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Anna": {
+            "votes": {
+                "Alex": {
+                    "value": 7
+                },
+                "Candelupix": {
+                    "value": 2
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Eduardo": {
+                    "value": 3
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 7
+                },
+                "Fede": {
+                    "value": 7
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 9
+                },
+                "Ine": {
+                    "value": 2
+                },
+                "Ivar": {
+                    "value": 2
+                },
+                "Javier Millei": {
+                    "value": 1
+                },
+                "Kevin": {
+                    "value": 5
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Merluza ": {
+                    "value": 7
+                },
+                "Neits": {
+                    "value": 9
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 8
+                },
+                "franco": {
+                    "value": 7
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Anna-Beth": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 1
+                },
+                "Ine": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 7
+                },
+                "Tía Vic": {
+                    "value": 2
+                },
+                "franco": {
+                    "value": 3
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Antonia": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 7
+                },
+                "Neits": {
+                    "value": 6
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 5
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Astrid": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 3
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 6
+                },
+                "Tía Vic": {
+                    "value": 3
+                },
+                "franco": {
+                    "value": 4
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Ava": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 2
+                },
+                "Tía Vic": {
+                    "value": 5
+                },
+                "franco": {
+                    "value": 3
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Bianca": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 9
+                },
+                "Cindy": {
+                    "value": 4
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Eduardo": {
+                    "value": 3
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Fede": {
+                    "value": 8
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "MarceloK": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 3
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 9
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Brisa": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Batiabue": {
+                    "value": 9
+                },
+                "Candelupix": {
+                    "value": 6
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 6
+                },
+                "Eduardo": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "El Matrex \"Jeringa\" Monzón ": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 1
+                },
+                "Fede": {
+                    "value": 2
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Ivar": {
+                    "value": 2
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 1
+                },
+                "Kevin": {
+                    "value": 6
+                },
+                "Lamejortia2da": {
+                    "value": 3
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 6
+                },
+                "franco": {
+                    "value": 1
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Carmela": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 8
+                },
+                "Neits": {
+                    "value": 5
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 4
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Cayetana": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 8
+                },
+                "Neits": {
+                    "value": 4
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 3
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Chiara ": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Alex": {
+                    "value": 7
+                },
+                "Candelupix": {
+                    "value": 9
+                },
+                "Cindy": {
+                    "value": 6
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Eduardo": {
+                    "value": 4
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 10
+                },
+                "Fede": {
+                    "value": 3
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 4
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Javier Millei": {
+                    "value": 6
+                },
+                "Las primas navegantes": {
+                    "value": 2
+                },
+                "Merluza ": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 3
+                },
+                "Tía Vic": {
+                    "value": 10
+                },
+                "franco": {
+                    "value": 6
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Cielo": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Batiabue": {
+                    "value": 10
+                },
+                "Candelupix": {
+                    "value": 9
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 6
+                },
+                "Eduardo": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "El Matrex \"Jeringa\" Monzón ": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 1
+                },
+                "Fede": {
+                    "value": 1
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Ine": {
+                    "value": 1
+                },
+                "Ivar": {
+                    "value": 2
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 1
+                },
+                "Kevin": {
+                    "value": 4
+                },
+                "Lamejortia2da": {
+                    "value": 3
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Merluza ": {
+                    "value": 7
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 1
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Clara": {
+            "votes": {
+                "Candelupix": {
+                    "value": 2
+                },
+                "Cindy": {
+                    "value": 2
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Eduardo": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 2
+                },
+                "Fede": {
+                    "value": 7
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Ivar": {
+                    "value": 2
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 7
+                },
+                "Kevin": {
+                    "value": 6
+                },
+                "La ”tia” del norte": {
+                    "value": 7
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Lula": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 7
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 10
+                },
+                "franco": {
+                    "value": 7
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Clara Victoria ": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 7
+                },
+                "Tía Vic": {
+                    "value": 10
+                },
+                "franco": {
+                    "value": 8
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Clementina": {
+            "votes": {
+                "Candelupix": {
+                    "value": 2
+                },
+                "Cindy": {
+                    "value": 10
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Eduardo": {
+                    "value": 4
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 4
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 3
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Dalila": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Eduardo": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "El Matrex \"Jeringa\" Monzón ": {
+                    "value": 7
+                },
+                "Erwin": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 8
+                },
+                "Fede": {
+                    "value": 2
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Ine": {
+                    "value": 1
+                },
+                "Ivar": {
+                    "value": 2
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 1
+                },
+                "Kevin": {
+                    "value": 6
+                },
+                "Lamejortia2da": {
+                    "value": 8
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 1
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Elena": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 3
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Eduardo": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "Xime": {
+                    "value": 10
+                },
+                "franco": {
+                    "value": 7
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Eleonora": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 4
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 6
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Elin": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 2
+                },
+                "Alex": {
+                    "value": 5
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 10
+                },
+                "Eduardo": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 4
+                },
+                "Fangio vanni": {
+                    "value": 1
+                },
+                "Fede": {
+                    "value": 3
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Ine": {
+                    "value": 2
+                },
+                "Ivar": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 1
+                },
+                "Kevin": {
+                    "value": 4
+                },
+                "Lamejortia2da": {
+                    "value": 3
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Mariela": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 8
+                },
+                "franco": {
+                    "value": 1
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Ella": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 5
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Elodie": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Ine": {
+                    "value": 3
+                },
+                "Neits": {
+                    "value": 8
+                },
+                "Tía Vic": {
+                    "value": 7
+                },
+                "franco": {
+                    "value": 4
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Elsa": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Eduardo": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 3
+                },
+                "Fede": {
+                    "value": 3
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 2
+                },
+                "Ine": {
+                    "value": 2
+                },
+                "Ivar": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 1
+                },
+                "Kevin": {
+                    "value": 6
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Merluza ": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 6
+                },
+                "Newone": {
+                    "value": 4
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 6
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Emily": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Alex": {
+                    "value": 8
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 8
+                },
+                "Eduardo": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 6
+                },
+                "Fede": {
+                    "value": 2
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Javier Millei": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Merluza ": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 4
+                },
+                "Tía Vic": {
+                    "value": 4
+                },
+                "franco": {
+                    "value": 4
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Emma ": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Alex": {
+                    "value": 8
+                },
+                "Candelupix": {
+                    "value": 5
+                },
+                "Cindy": {
+                    "value": 6
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Eduardo": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 7
+                },
+                "Fangio vanni": {
+                    "value": 10
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 10
+                },
+                "Ivar": {
+                    "value": 4
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Kevin": {
+                    "value": 7
+                },
+                "Las primas navegantes": {
+                    "value": 7
+                },
+                "Merluza ": {
+                    "value": 5
+                },
+                "Neits": {
+                    "value": 5
+                },
+                "Newone": {
+                    "value": 4
+                },
+                "Tía Vic": {
+                    "value": 2
+                },
+                "franco": {
+                    "value": 8
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Esteisi Malibú": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Diego A": {
+                    "value": 9
+                },
+                "Fangio vanni": {
+                    "value": 1
+                },
+                "Ine": {
+                    "value": 3
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Filippa": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 5
+                },
+                "Cindy": {
+                    "value": 6
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Eduardo": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 2
+                },
+                "Fangio vanni": {
+                    "value": 1
+                },
+                "Fede": {
+                    "value": 3
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Ivar": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 4
+                },
+                "Kevin": {
+                    "value": 4
+                },
+                "Las primas navegantes": {
+                    "value": 3
+                },
+                "Neits": {
+                    "value": 3
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "So": {
+                    "value": 6
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 5
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Francesca ": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 4
+                },
+                "Alex": {
+                    "value": 8
+                },
+                "Batiabue": {
+                    "value": 10
+                },
+                "Candelupix": {
+                    "value": 5
+                },
+                "Cindy": {
+                    "value": 8
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 10
+                },
+                "Erwin": {
+                    "value": 5
+                },
+                "Fede": {
+                    "value": 10
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 6
+                },
+                "Ivar": {
+                    "value": 9
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 10
+                },
+                "Jime&Di": {
+                    "value": 7
+                },
+                "Kevin": {
+                    "value": 6
+                },
+                "Merluza ": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 9
+                },
+                "Tía Vic": {
+                    "value": 6
+                },
+                "franco": {
+                    "value": 9
+                },
+                "nik": {
+                    "value": 10
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Francisca ": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 6
+                },
+                "Candelupix": {
+                    "value": 5
+                },
+                "Cindy": {
+                    "value": 7
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 1
+                },
+                "Fede": {
+                    "value": 7
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Giulucre ": {
+                    "value": 8
+                },
+                "Ivar": {
+                    "value": 3
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 6
+                },
+                "Kevin": {
+                    "value": 6
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Mariela": {
+                    "value": 5
+                },
+                "Merluza ": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 9
+                },
+                "Newone": {
+                    "value": 2
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 10
+                },
+                "nik": {
+                    "value": 10
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Fredrika ": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 2
+                },
+                "Candelupix": {
+                    "value": 4
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 6
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 9
+                },
+                "Tía Vic": {
+                    "value": 4
+                },
+                "franco": {
+                    "value": 4
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Freja": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 2
+                },
+                "Candelupix": {
+                    "value": 2
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 10
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 1
+                },
+                "Fede": {
+                    "value": 2
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 4
+                },
+                "Ine": {
+                    "value": 1
+                },
+                "Ivar": {
+                    "value": 4
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Javier Millei": {
+                    "value": 1
+                },
+                "Kevin": {
+                    "value": 7
+                },
+                "Las primas navegantes": {
+                    "value": 3
+                },
+                "Neits": {
+                    "value": 9
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Riyanka": {
+                    "value": 9
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 7
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Frida": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 2
+                },
+                "Candelupix": {
+                    "value": 9
+                },
+                "Cindy": {
+                    "value": 2
+                },
+                "Clara": {
+                    "value": 10
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 8
+                },
+                "Fede": {
+                    "value": 1
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Ine": {
+                    "value": 1
+                },
+                "Ivar": {
+                    "value": 4
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Javier Millei": {
+                    "value": 6
+                },
+                "Kevin": {
+                    "value": 7
+                },
+                "Las primas navegantes": {
+                    "value": 8
+                },
+                "Merluza ": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 8
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Riyanka": {
+                    "value": 9
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 6
+                },
+                "nik": {
+                    "value": 10
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Giuliana": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 4
+                },
+                "Ine": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 8
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 9
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Guadalupe": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 4
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Diego A": {
+                    "value": 8
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 3
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 6
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Hanna": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 2
+                },
+                "Batiabue": {
+                    "value": 9
+                },
+                "Candelupix": {
+                    "value": 3
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 4
+                },
+                "Fede": {
+                    "value": 7
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 6
+                },
+                "Ivar": {
+                    "value": 4
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Javier Millei": {
+                    "value": 1
+                },
+                "Jime&Di": {
+                    "value": 5
+                },
+                "Kevin": {
+                    "value": 7
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Merluza ": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 4
+                },
+                "franco": {
+                    "value": 7
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Heidi": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 3
+                },
+                "Cindy": {
+                    "value": 3
+                },
+                "Clara": {
+                    "value": 8
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 1
+                },
+                "Fede": {
+                    "value": 3
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 2
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Javier Millei": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 7
+                },
+                "Merluza ": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 6
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 5
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Heike ": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 2
+                },
+                "Candelupix": {
+                    "value": 2
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "El Matrex \"Jeringa\" Monzón ": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 6
+                },
+                "Fangio vanni": {
+                    "value": 8
+                },
+                "Fede": {
+                    "value": 1
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 2
+                },
+                "Ine": {
+                    "value": 2
+                },
+                "Ivar": {
+                    "value": 4
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 1
+                },
+                "Kevin": {
+                    "value": 3
+                },
+                "Lamejortia2da": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 1
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Ingrid": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 2
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 4
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 6
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 2
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Iris ": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 7
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Ine": {
+                    "value": 3
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 4
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 4
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Isabella ": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 3
+                },
+                "Batiabue": {
+                    "value": 7
+                },
+                "Candelupix": {
+                    "value": 7
+                },
+                "Cindy": {
+                    "value": 4
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "El Matrex \"Jeringa\" Monzón ": {
+                    "value": 8
+                },
+                "Erwin": {
+                    "value": 8
+                },
+                "Fangio vanni": {
+                    "value": 8
+                },
+                "Fede": {
+                    "value": 8
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 3
+                },
+                "Ivar": {
+                    "value": 6
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 1
+                },
+                "Kevin": {
+                    "value": 8
+                },
+                "Lamejortia2da": {
+                    "value": 8
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Merluza ": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 2
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 7
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Isaura": {
+            "votes": {
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 4
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Ine": {
+                    "value": 4
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 4
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Jasmine ": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Riyanka": {
+                    "value": 9
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 6
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Joaquina": {
+            "votes": {
+                "Candelupix": {
+                    "value": 6
+                },
+                "Cindy": {
+                    "value": 10
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 3
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 2
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Johanna": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 8
+                },
+                "Fede": {
+                    "value": 2
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Ine": {
+                    "value": 2
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 5
+                },
+                "Tía Vic": {
+                    "value": 6
+                },
+                "franco": {
+                    "value": 8
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Josefa": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 2
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 2
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Diego A": {
+                    "value": 3
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Fede": {
+                    "value": 2
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Merluza ": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 2
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Josefina": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 2
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Diego A": {
+                    "value": 8
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Fede": {
+                    "value": 6
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 2
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 4
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 8
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Juana": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 7
+                },
+                "Neits": {
+                    "value": 6
+                },
+                "Tía Vic": {
+                    "value": 10
+                },
+                "franco": {
+                    "value": 5
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Julia 😃": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 4
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 7
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 8
+                },
+                "Neits": {
+                    "value": 7
+                },
+                "Riyanka": {
+                    "value": 5
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 10
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Juni": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 9
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 7
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 8
+                },
+                "Riyanka": {
+                    "value": 6
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 4
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Karin": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 8
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Kateryna": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 7
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 6
+                },
+                "Fede": {
+                    "value": 6
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 3
+                },
+                "Ine": {
+                    "value": 7
+                },
+                "Ivar": {
+                    "value": 6
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Javier Millei": {
+                    "value": 1
+                },
+                "Kevin": {
+                    "value": 4
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 8
+                },
+                "Newone": {
+                    "value": 4
+                },
+                "So": {
+                    "value": 5
+                },
+                "Tía Vic": {
+                    "value": 10
+                },
+                "franco": {
+                    "value": 6
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Katja": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 2
+                },
+                "Clara": {
+                    "value": 8
+                },
+                "Diego A": {
+                    "value": 5
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 6
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 9
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Leah": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 3
+                },
+                "Clara": {
+                    "value": 10
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 5
+                },
+                "Fede": {
+                    "value": 3
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 5
+                },
+                "Ivar": {
+                    "value": 7
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Javier Millei": {
+                    "value": 1
+                },
+                "Kevin": {
+                    "value": 4
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Merluza ": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 4
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "So": {
+                    "value": 10
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 4
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Leila": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 2
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "El Matrex \"Jeringa\" Monzón ": {
+                    "value": 8
+                },
+                "Erwin": {
+                    "value": 4
+                },
+                "Fangio vanni": {
+                    "value": 10
+                },
+                "Fede": {
+                    "value": 3
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 2
+                },
+                "Ivar": {
+                    "value": 2
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 2
+                },
+                "Kevin": {
+                    "value": 7
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Riyanka": {
+                    "value": 8
+                },
+                "Tía Vic": {
+                    "value": 10
+                },
+                "franco": {
+                    "value": 6
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Lena": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 4
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 7
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Liliana": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "El Matrex \"Jeringa\" Monzón ": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 6
+                },
+                "Fede": {
+                    "value": 1
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 6
+                },
+                "Ivar": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 3
+                },
+                "Kevin": {
+                    "value": 4
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 3
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Lina": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Alex": {
+                    "value": 8
+                },
+                "Candelupix": {
+                    "value": 8
+                },
+                "Cindy": {
+                    "value": 2
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 3
+                },
+                "Fangio vanni": {
+                    "value": 4
+                },
+                "Fede": {
+                    "value": 6
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 5
+                },
+                "Ivar": {
+                    "value": 6
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 2
+                },
+                "Kevin": {
+                    "value": 4
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 5
+                },
+                "Newone": {
+                    "value": 2
+                },
+                "Riyanka": {
+                    "value": 9
+                },
+                "Tía Vic": {
+                    "value": 9
+                },
+                "franco": {
+                    "value": 7
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Linnea ": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 2
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 1
+                },
+                "Fede": {
+                    "value": 1
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Ivar": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 1
+                },
+                "Kevin": {
+                    "value": 4
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 6
+                },
+                "Newone": {
+                    "value": 3
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 5
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Lise": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 4
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 5
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Lola": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 8
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 2
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Louisa": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 3
+                },
+                "Neits": {
+                    "value": 8
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 7
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Louise": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 4
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 3
+                },
+                "Fede": {
+                    "value": 5
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Ivar": {
+                    "value": 4
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 3
+                },
+                "Kevin": {
+                    "value": 6
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Merluza ": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 6
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 9
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Lourdes": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 6
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Diego A": {
+                    "value": 9
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 5
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Lupita": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 2
+                },
+                "Candelupix": {
+                    "value": 10
+                },
+                "Cindy": {
+                    "value": 3
+                },
+                "Clara": {
+                    "value": 6
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 3
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 8
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Maggie": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 7
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 5
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 8
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 10
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Las primas navegantes": {
+                    "value": 9
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 6
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Magnolia": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 9
+                },
+                "Cindy": {
+                    "value": 10
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 2
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 3
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Merluza ": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 3
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 2
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Mariana ": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 7
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 7
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Martina ": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 6
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 7
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 8
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Matilda": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 6
+                },
+                "Candelupix": {
+                    "value": 5
+                },
+                "Cindy": {
+                    "value": 4
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "El Matrex \"Jeringa\" Monzón ": {
+                    "value": 4
+                },
+                "Erwin": {
+                    "value": 4
+                },
+                "Fangio vanni": {
+                    "value": 8
+                },
+                "Fede": {
+                    "value": 1
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 2
+                },
+                "Kevin": {
+                    "value": 6
+                },
+                "Lamejortia2da": {
+                    "value": 7
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Merluza ": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 6
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 3
+                },
+                "franco": {
+                    "value": 1
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Maya": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 2
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 7
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Riyanka": {
+                    "value": 9
+                },
+                "Tía Vic": {
+                    "value": 10
+                },
+                "franco": {
+                    "value": 4
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Mia": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 2
+                },
+                "Candelupix": {
+                    "value": 2
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 7
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 6
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "MarceloK": {
+                    "value": 7
+                },
+                "Neits": {
+                    "value": 3
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 6
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Mona ": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Batiabue": {
+                    "value": 9
+                },
+                "Candelupix": {
+                    "value": 7
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 2
+                },
+                "Fangio vanni": {
+                    "value": 9
+                },
+                "Fede": {
+                    "value": 1
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 3
+                },
+                "Ivar": {
+                    "value": 3
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Javier Millei": {
+                    "value": 3
+                },
+                "Kevin": {
+                    "value": 6
+                },
+                "Lamejortia2da": {
+                    "value": 9
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Sir charles": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 1
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Monna": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 2
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 1
+                },
+                "Fede": {
+                    "value": 1
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 3
+                },
+                "Ivar": {
+                    "value": 2
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 2
+                },
+                "Kevin": {
+                    "value": 5
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Merluza ": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 9
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 1
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "My": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 3
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Nadia": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "El Matrex \"Jeringa\" Monzón ": {
+                    "value": 8
+                },
+                "Erwin": {
+                    "value": 4
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 5
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Javier Millei": {
+                    "value": 3
+                },
+                "Kevin": {
+                    "value": 4
+                },
+                "Lamejortia2da": {
+                    "value": 10
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Riyanka": {
+                    "value": 9
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 2
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Naomi ": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 5
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 8
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 4
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 7
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 5
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Noah ": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Fangio vanni": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 9
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 2
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Olivia": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 3
+                },
+                "Alex": {
+                    "value": 7
+                },
+                "Candelupix": {
+                    "value": 4
+                },
+                "Cindy": {
+                    "value": 2
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Diego A": {
+                    "value": 7
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 6
+                },
+                "Fangio vanni": {
+                    "value": 8
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 3
+                },
+                "Giulucre ": {
+                    "value": 8
+                },
+                "Ine": {
+                    "value": 9
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Javier Millei": {
+                    "value": 2
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 2
+                },
+                "So": {
+                    "value": 10
+                },
+                "Tía Vic": {
+                    "value": 6
+                },
+                "franco": {
+                    "value": 3
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Raquel ": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 7
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 3
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Regina": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 4
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Riyanka": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 2
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "El Matrex \"Jeringa\" Monzón ": {
+                    "value": 7
+                },
+                "Erwin": {
+                    "value": 4
+                },
+                "Fangio vanni": {
+                    "value": 8
+                },
+                "Fede": {
+                    "value": 2
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Ine": {
+                    "value": 2
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 3
+                },
+                "Kevin": {
+                    "value": 5
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Riyanka": {
+                    "value": 1
+                },
+                "Sir charles": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 6
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Saga": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 3
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 6
+                },
+                "Riyanka": {
+                    "value": 9
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 9
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Sasha": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 4
+                },
+                "Clara": {
+                    "value": 8
+                },
+                "Ine": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 3
+                },
+                "Tía Vic": {
+                    "value": 7
+                },
+                "franco": {
+                    "value": 7
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Sofía": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 2
+                },
+                "Cindy": {
+                    "value": 6
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Diego A": {
+                    "value": 7
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 6
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 10
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Sophie": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 6
+                },
+                "Alex": {
+                    "value": 8
+                },
+                "Candelupix": {
+                    "value": 6
+                },
+                "Cindy": {
+                    "value": 6
+                },
+                "Clara": {
+                    "value": 6
+                },
+                "Diego A": {
+                    "value": 7
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 8
+                },
+                "Fangio vanni": {
+                    "value": 10
+                },
+                "Fede": {
+                    "value": 3
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 8
+                },
+                "Ivar": {
+                    "value": 8
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Javier Millei": {
+                    "value": 3
+                },
+                "Jime&Di": {
+                    "value": 7
+                },
+                "Kevin": {
+                    "value": 7
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 6
+                },
+                "Newone": {
+                    "value": 2
+                },
+                "Tía Vic": {
+                    "value": 6
+                },
+                "franco": {
+                    "value": 8
+                },
+                "nik": {
+                    "value": 10
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Stina": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 2
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 5
+                },
+                "Fede": {
+                    "value": 2
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 3
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 3
+                },
+                "Kevin": {
+                    "value": 4
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 9
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 10
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Thea": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 2
+                },
+                "Batiabue": {
+                    "value": 7
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 3
+                },
+                "Fangio vanni": {
+                    "value": 8
+                },
+                "Fede": {
+                    "value": 3
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 3
+                },
+                "Kevin": {
+                    "value": 6
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 9
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Riyanka": {
+                    "value": 9
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 7
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Tyra": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 1
+                },
+                "Riyanka": {
+                    "value": 9
+                },
+                "Tía Vic": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 4
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Valentina": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 10
+                },
+                "Alex": {
+                    "value": 7
+                },
+                "Candelupix": {
+                    "value": 6
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "El Matrex \"Jeringa\" Monzón ": {
+                    "value": 6
+                },
+                "Fede": {
+                    "value": 6
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 3
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Javier Millei": {
+                    "value": 3
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 6
+                },
+                "Tía Vic": {
+                    "value": 5
+                },
+                "franco": {
+                    "value": 4
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Vanja": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 2
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 10
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 3
+                },
+                "Fede": {
+                    "value": 2
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 6
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Javier Millei": {
+                    "value": 3
+                },
+                "Kevin": {
+                    "value": 6
+                },
+                "Lamejortia2da": {
+                    "value": 8
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Merluza ": {
+                    "value": 10
+                },
+                "Neits": {
+                    "value": 9
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "Tía Vic": {
+                    "value": 10
+                },
+                "franco": {
+                    "value": 8
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Victoria": {
+            "votes": {
+                "Alex": {
+                    "value": 7
+                },
+                "Camilin": {
+                    "value": 10
+                },
+                "Candelupix": {
+                    "value": 2
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Erwin": {
+                    "value": 6
+                },
+                "Fede": {
+                    "value": 8
+                },
+                "Feli \"el hombre\" May": {
+                    "value": 5
+                },
+                "Ivar": {
+                    "value": 6
+                },
+                "Iván May": {
+                    "value": 10
+                },
+                "Javier Millei": {
+                    "value": 3
+                },
+                "Kevin": {
+                    "value": 9
+                },
+                "Las primas navegantes": {
+                    "value": 8
+                },
+                "Neits": {
+                    "value": 3
+                },
+                "Newone": {
+                    "value": 1
+                },
+                "franco": {
+                    "value": 10
+                },
+                "nik": {
+                    "value": 1
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        },
+        "Vittoria ": {
+            "votes": {
+                "AbrazodeLuz": {
+                    "value": 1
+                },
+                "Candelupix": {
+                    "value": 1
+                },
+                "Cindy": {
+                    "value": 1
+                },
+                "Clara": {
+                    "value": 1
+                },
+                "El Cris": {
+                    "value": 1
+                },
+                "Iván May": {
+                    "value": 1
+                },
+                "Las primas navegantes": {
+                    "value": 1
+                },
+                "Neits": {
+                    "value": 7
+                },
+                "Tía Vic": {
+                    "value": 8
+                },
+                "franco": {
+                    "value": 6
+                },
+                "none": {
+                    "value": -1
+                }
+            }
+        }
+    },
+    "users": {
+        "AbrazodeLuz": {
+            "color": "#ffdd16bf"
+        },
+        "Alex": {
+            "color": ""
+        },
+        "Batiabue": {
+            "color": ""
+        },
+        "CATA": {
+            "color": "#29ff16"
+        },
+        "Camilin": {
+            "color": "#f616ffce"
+        },
+        "Candelupix": {
+            "color": "#ec16ffc6"
+        },
+        "Cindy": {
+            "color": "#bf416071"
+        },
+        "Clara": {
+            "color": "#e1216e98"
+        },
+        "Clarita": {
+            "color": "#e1216e98"
+        },
+        "Diego A": {
+            "color": "#063679"
+        },
+        "Eduardo": {
+            "color": "#ff8b16"
+        },
+        "El Cris": {
+            "color": ""
+        },
+        "El Matrex \"Jeringa\" Monzón ": {
+            "color": ""
+        },
+        "Erwin": {
+            "color": "#3916ff51"
+        },
+        "Fangio vanni": {
+            "color": "#c2b11c"
+        },
+        "Fati": {
+            "color": "#ff1693"
+        },
+        "Fede": {
+            "color": ""
+        },
+        "Feli \"el hombre\" May": {
+            "color": "#2d5791"
+        },
+        "Giulucre ": {
+            "color": "#06377b"
+        },
+        "Ine": {
+            "color": "#4a71d8"
+        },
+        "Ivar": {
+            "color": ""
+        },
+        "Iván May": {
+            "color": ""
+        },
+        "Javier Millei": {
+            "color": "#ff16e0"
+        },
+        "Jime&Di": {
+            "color": ""
+        },
+        "Kevin": {
+            "color": ""
+        },
+        "La ”tia” del norte": {
+            "color": "#4e1c8b"
+        },
+        "Lamejortia2da": {
+            "color": "#16ff21"
+        },
+        "Las primas navegantes": {
+            "color": "#16c8ff"
+        },
+        "Lula": {
+            "color": "#42ff16"
+        },
+        "MarceloK": {
+            "color": ""
+        },
+        "Mariela": {
+            "color": "#9516ff"
+        },
+        "Merluza ": {
+            "color": "#e516ff"
+        },
+        "Nano": {
+            "color": "#cfff16"
+        },
+        "Neits": {
+            "color": ""
+        },
+        "Niclas": {
+            "color": "#f99612"
+        },
+        "Riyanka": {
+            "color": "#3de2e7ca"
+        },
+        "Sir charles": {
+            "color": ""
+        },
+        "So": {
+            "color": "#9916ff"
+        },
+        "Tía Vic": {
+            "color": "#7a16ff"
+        },
+        "Xime": {
+            "color": "#a9279b"
+        },
+        "franco": {
+            "color": "#09d897"
+        },
+        "nik": {
+            "color": "#000000"
+        }
+    }
+}

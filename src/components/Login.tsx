@@ -5,7 +5,7 @@ import { PlusOutlined } from "@ant-design/icons";
 import { Divider, Button, Typography, Card } from "antd";
 import { useState } from "react";
 import NewUserModal from "./NewUserModal";
-import useScrollTop from "../hooks/useScrollTop";
+import useScrollTopOnMount from "../hooks/useScrollTop";
 import { useNavigate } from "react-router-dom";
 import { routes } from "../constants";
 
@@ -37,7 +37,7 @@ const Login = ({
   const navigate = useNavigate();
   const [addUserModalVisible, setAddUserModalVisible] =
     useState<boolean>(false);
-  useScrollTop();
+  useScrollTopOnMount();
 
   if (!users) {
     return null;
