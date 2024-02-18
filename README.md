@@ -1,30 +1,14 @@
-# React + TypeScript + Vite
+# Baby Name Chooser
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a private project designed to help my family democratically choose a name for our soon-to-be-born child. Family members can propose names and vote on them, making the process of choosing a baby name fun and inclusive.
 
-Currently, two official plugins are available:
+Please note that this repository is not intended for public use or contribution. It's simply here for reference.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Propose Names**: Family members can propose a new name for consideration.
+- **Vote on Names**: Family members can select how much they like every name.
+- **User Profiles**: Each family member has a user profile with a color identifier.
+- **Ranking**: There is a section to see the trending names, ranked by a custom function that weights average and total points and penalizes large standard deviations.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Thank you for your interest!
