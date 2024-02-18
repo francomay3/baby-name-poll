@@ -26,7 +26,7 @@ const Wrapper = styled.div`
 `;
 
 const getUserValueForName = (userId: string, name: Names[keyof Names]) => {
-  const vote = name.votes[userId];
+  const vote = name.votes?.[userId];
   return vote ? vote.value : null;
 };
 
