@@ -10,8 +10,8 @@ import { routes } from "../constants";
 const Wrapper = styled.header`
   padding-block: 0.5rem;
   padding-inline: 1rem;
-  background: #f2f2f2;
-  border-bottom: 1px solid #d9d9d9;
+  background: #e1e1ff;
+  border-bottom: 1px solid #bebee1;
   display: flex;
   align-items: center;
   gap: 1rem;
