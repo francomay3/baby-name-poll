@@ -56,9 +56,14 @@ const getTotalValueByName: (data: Data, name: string) => number = (
   if (!data) {
     return 0;
   }
-  const values = Object.values(data.names[name].votes)
-    .map((vote) => vote.value)
-    .filter((value) => value > 0);
+  const values = Object.entries(data.names[name].votes).flatMap(
+    ([user, vote]) => {
+      if (user === "none" || !data.users[user]) {
+        return [];
+      }
+      return vote.value;
+    }
+  );
   const standardDev = standardDeviation(values);
   const total = values.reduce((acc, value) => acc + value, 0);
   const average = total / values.length;
