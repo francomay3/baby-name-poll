@@ -41,6 +41,7 @@ const RankingCard = styled(Card)<{ index: number }>`
 `;
 
 function standardDeviation(arr: number[]) {
+  console.log(arr);
   const n = arr.length;
   const mean = arr.reduce((a, b) => a + b) / n;
   const deviation = Math.sqrt(
@@ -69,6 +70,9 @@ const getTotalValueByName: (data: Data, name: string) => number = (
     }
     return vote.value;
   });
+  if (values.length === 0) {
+    return 0;
+  }
   const standardDev = standardDeviation(values);
   const total = values.reduce((acc, value) => acc + value, 0);
   const average = total / values.length;
