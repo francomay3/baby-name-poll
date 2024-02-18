@@ -40,16 +40,6 @@ const RankingCard = styled(Card)<{ index: number }>`
   }
 `;
 
-function standardDeviation(arr: number[]) {
-  console.log(arr);
-  const n = arr.length;
-  const mean = arr.reduce((a, b) => a + b) / n;
-  const deviation = Math.sqrt(
-    arr.map((x) => Math.pow(x - mean, 2)).reduce((a, b) => a + b) / n
-  );
-  return deviation;
-}
-
 const getTotalValueByName: (data: Data, name: string) => number = (
   data,
   name
@@ -57,7 +47,6 @@ const getTotalValueByName: (data: Data, name: string) => number = (
   if (!data) {
     return 0;
   }
-  console.log(data);
   const votes = data.names[name].votes;
 
   if (!votes) {
@@ -73,10 +62,24 @@ const getTotalValueByName: (data: Data, name: string) => number = (
   if (values.length === 0) {
     return 0;
   }
-  const standardDev = standardDeviation(values);
-  const total = values.reduce((acc, value) => acc + value, 0);
-  const average = total / values.length;
-  return Math.round((total * average) / (standardDev + 1));
+
+  const stdDevPenalty = 0.8;
+  const minVotes = 7;
+  const votePenalty = 0.5;
+
+  const avg = values.reduce((a: number, b: number) => a + b, 0) / values.length;
+  const stdDev = Math.sqrt(
+    values
+      .map((x: number) => Math.pow(x - avg, 2))
+      .reduce((a: number, b: number) => a + b, 0) / values.length
+  );
+  let adjustedAvg = avg - stdDevPenalty * stdDev;
+
+  if (values.length < minVotes) {
+    adjustedAvg -= votePenalty * (minVotes - values.length);
+  }
+
+  return Math.round(adjustedAvg * 100);
 };
 
 const Ranking = ({ data }: { data: Data }) => {
@@ -91,7 +94,6 @@ const Ranking = ({ data }: { data: Data }) => {
     .sort((a, b) => b.value - a.value);
 
   const topNames = names.slice(0, 12);
-
   return (
     <div>
       <Space direction="vertical" size="middle" style={{ display: "flex" }}>
