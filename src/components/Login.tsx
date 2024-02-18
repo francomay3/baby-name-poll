@@ -7,6 +7,7 @@ import { useState } from "react";
 import NewUserModal from "./NewUserModal";
 import useScrollTop from "../hooks/useScrollTop";
 import { useNavigate } from "react-router-dom";
+import { routes } from "../constants";
 
 const UserList = styled.div`
   display: flex;
@@ -44,7 +45,7 @@ const Login = ({
 
   const loginAndMove = (userId: string) => {
     login(userId);
-    navigate("/baby-name-poll/nombres");
+    navigate(routes.vote);
   };
 
   return (

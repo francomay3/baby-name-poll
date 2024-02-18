@@ -3,6 +3,7 @@ import { LogoutAction } from "../hooks/useAuth";
 import { useNavigate } from "react-router-dom";
 import { User } from "../models";
 import { Typography, Space, Button } from "antd";
+import { routes } from "../constants";
 
 const LabelAndText = ({ label, text }: { label: string; text: string }) => (
   <Typography.Text>
@@ -23,7 +24,7 @@ const UserDashboard = ({
 
   useEffect(() => {
     if (!user) {
-      navigate("/baby-name-poll/login");
+      navigate(routes.login);
     }
   }, [user, navigate]);
 
@@ -34,10 +35,7 @@ const UserDashboard = ({
       <LabelAndText label="Emoji" text="(funcionalidad en desarrollo 😎)" />
       {/* TODO: Add emoji to user */}
       <Space>
-        <Button
-          type="primary"
-          onClick={() => navigate("/baby-name-poll/nombres")}
-        >
+        <Button type="primary" onClick={() => navigate(routes.vote)}>
           Seguir votando nombres 📝
         </Button>
         <Button

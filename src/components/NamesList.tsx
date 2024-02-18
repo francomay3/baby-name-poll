@@ -1,9 +1,10 @@
-import { Button, Slider, Input, Collapse, Divider, Typography } from "antd";
+import { Button, Slider, Input, Divider, Typography, Space } from "antd";
 import styled from "styled-components";
 import { LogoutAction, Names, SetNewValue, SetNewName } from "../models";
 import { useState, Fragment, useEffect } from "react";
 import useScrollTop from "../hooks/useScrollTop";
 import { useNavigate } from "react-router-dom";
+import { routes } from "../constants";
 
 const Logout = styled.div`
   display: flex;
@@ -47,6 +48,29 @@ const AddNameElement = styled.div`
   align-items: center;
 `;
 
+const ExampleWrapper = styled(Space)`
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+  & > *:nth-child(2) {
+    flex: 1;
+  }
+  & > *:nth-child(1) {
+    margin-bottom: 4px;
+  }
+`;
+
+const Explanation = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+`;
+
+const Smileys = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+
 const NamesList = ({
   logout,
   userId,
@@ -60,6 +84,7 @@ const NamesList = ({
   setNewValue: SetNewValue;
   setNewName: SetNewName;
 }) => {
+  const [exampleValue, setExampleValue] = useState<number | null>(null);
   const navigate = useNavigate();
   const [newNameInput, setNewNameInput] = useState<string>("");
   const [addingName, setAddingName] = useState<boolean>(false);
@@ -67,7 +92,7 @@ const NamesList = ({
 
   useEffect(() => {
     if (!userId) {
-      navigate("/baby-name-poll/login");
+      navigate(routes.login);
     }
   }, [userId, navigate]);
 
@@ -98,44 +123,44 @@ const NamesList = ({
         </Button>
       </Logout>
       <Divider />
-      <Collapse
-        items={[
-          {
-            label: "Un poco de ayuda 💡",
-            children: (
-              <>
-                <Typography.Paragraph>
-                  Bueno. Aca podes agregar nombres y tambien ver los nombres que
-                  agregaron los demas.
-                </Typography.Paragraph>
-                <Typography.Paragraph>
-                  podes decidir cuanto te gusta cada nombre usando la manijita.
-                  si el color de la barra es gris, es porque todavia no votaste
-                  ese nombre.
-                </Typography.Paragraph>
-                <Typography.Paragraph>
-                  si dejas un nombre sin votar, es como si le pusieras un 1. asi
-                  que vota a todos.
-                </Typography.Paragraph>
-                <Typography.Paragraph>
-                  si alguien agrega un nuevo nombre, automaticamente lo vas a
-                  poder ver vos tambien. asi que tendria sentido entrar cada
-                  tanto para votar los nuevos nombres que alguien haya agregado.
-                </Typography.Paragraph>
-                <Typography.Paragraph>
-                  no hace falta guardar los cambios, todo se sincroniza
-                  automaticamente.
-                </Typography.Paragraph>
-                <Typography.Paragraph>
-                  si cuesta scrollear para abajo, es probablemente porque estas
-                  seleccionando las manijitas. desliza el dedo por la columna de
-                  los nombres.
-                </Typography.Paragraph>
-              </>
-            ),
-          },
-        ]}
-      ></Collapse>
+      <Typography.Title level={4}>Como Votar: EJEMPLO</Typography.Title>
+      <ExampleWrapper>
+        <span>Lennartina</span>
+        <Explanation>
+          <Smileys>
+            <span>😡</span>
+            <span>😠</span>
+            <span>😞</span>
+            <span>😐</span>
+            <span>😊</span>
+            <span>😄</span>
+            <span>😀</span>
+            <span>😁</span>
+            <span>😍</span>
+            <span>🤩</span>
+          </Smileys>
+          <Slider
+            styles={{
+              track: {
+                backgroundColor: getSentimentColor(exampleValue),
+              },
+            }}
+            style={{ flex: 1 }}
+            value={exampleValue ?? 5}
+            defaultValue={exampleValue ?? 5}
+            min={1}
+            max={10}
+            onChange={(newExampleValue) => setExampleValue(newExampleValue)}
+          />
+        </Explanation>
+      </ExampleWrapper>
+      <Typography.Title level={5} mark>
+        Podes votar tu preferencia por todos los nombres!
+      </Typography.Title>
+      <Typography.Text>
+        los mas gustados por la mayoria van a terminar primeros en el ranking!
+        tambien podes agregar nuevos nombres si queres.
+      </Typography.Text>
       <Divider />
       <List>
         <AddNameElement>
@@ -179,6 +204,7 @@ const NamesList = ({
                     backgroundColor: getSentimentColor(value),
                   },
                 }}
+                value={value ?? 5}
                 style={{ flex: 1 }}
                 defaultValue={value ?? 5}
                 min={1}

@@ -1,6 +1,7 @@
 import nata from "../assets/nata.jpeg";
 import { Image, Typography, Space, Button } from "antd";
 import { Link } from "react-router-dom";
+import { routes } from "../constants";
 
 const Main = () => {
   return (
@@ -19,12 +20,12 @@ const Main = () => {
         src={nata}
         preview={false}
       />
-      <Link to="/baby-name-poll/nombres">
+      <Link to={routes.vote}>
         <Button type="primary" size="large">
           Votar nombres 📝
         </Button>
       </Link>
-      <Link to="/baby-name-poll/ranking">
+      <Link to={routes.ranking}>
         <Button type="primary" size="large">
           Ver ranking 🏆
         </Button>

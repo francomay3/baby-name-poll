@@ -1,7 +1,6 @@
 import { Data } from "../hooks/useDatabase";
-import ReactWordcloud, { Options } from "react-wordcloud";
 import styled from "styled-components";
-import { Card, Divider, Space, Typography } from "antd";
+import { Card, Space, Typography } from "antd";
 import { CrownFilled, FireFilled, StarFilled } from "@ant-design/icons";
 
 const { Title } = Typography;
@@ -41,13 +40,6 @@ const RankingCard = styled(Card)<{ index: number }>`
   }
 `;
 
-const options: Partial<Options> = {
-  fontSizes: [15, 80],
-  rotations: 2,
-  rotationAngles: [0, 90],
-  padding: 5,
-};
-
 const getTotalValueByName: (data: Data, name: string) => number = (
   data,
   name
@@ -72,7 +64,7 @@ const Ranking = ({ data }: { data: Data }) => {
     })
     .sort((a, b) => b.value - a.value);
 
-  const topNames = names.slice(0, 6);
+  const topNames = names.slice(0, 12);
 
   return (
     <div>
@@ -98,8 +90,6 @@ const Ranking = ({ data }: { data: Data }) => {
             </div>
           </RankingCard>
         ))}
-        <Divider />
-        <ReactWordcloud options={options} words={names} />
       </Space>
     </div>
   );

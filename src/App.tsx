@@ -9,11 +9,12 @@ import UserDashboard from "./components/UserDashboard";
 import Main from "./components/Main";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
+import { routes } from "./constants";
 
 const RedirectToHome = () => {
   const navigate = useNavigate();
   useEffect(() => {
-    navigate("/baby-name-poll");
+    navigate(routes.home);
   }, [navigate]);
   return null;
 };

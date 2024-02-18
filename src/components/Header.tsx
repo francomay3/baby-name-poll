@@ -5,6 +5,7 @@ import { MenuUnfoldOutlined, MenuFoldOutlined } from "@ant-design/icons";
 import { useState } from "react";
 import { Drawer, Space, Typography } from "antd";
 import { Link, useNavigate } from "react-router-dom";
+import { routes } from "../constants";
 
 const Wrapper = styled.header`
   padding-block: 0.5rem;
@@ -46,13 +47,13 @@ function Header({
             onClick={() => setCollapsed(!collapsed)}
           />
         )}
-        <Typography.Title level={4} onClick={() => navigate("baby-name-poll")}>
+        <Typography.Title level={4} onClick={() => navigate(routes.home)}>
           Consulta popular para la eleccion del nombre del neonato
         </Typography.Title>
         <Avatar
           user={user}
           userId={userId}
-          onClick={() => navigate("/baby-name-poll/usuario")}
+          onClick={() => navigate(routes.user)}
         />
       </Wrapper>
       <Drawer
@@ -64,33 +65,24 @@ function Header({
       >
         <Space direction="vertical">
           <Typography.Text>
-            <Link onClick={() => setCollapsed(true)} to="/baby-name-poll/">
+            <Link onClick={() => setCollapsed(true)} to={routes.home}>
               Home
             </Link>
           </Typography.Text>
           <Typography.Text>
-            <Link
-              onClick={() => setCollapsed(true)}
-              to="/baby-name-poll/nombres"
-            >
-              Nombres
+            <Link onClick={() => setCollapsed(true)} to={routes.vote}>
+              Votar Nombres
             </Link>
           </Typography.Text>
           <Typography.Text>
-            <Link
-              onClick={() => setCollapsed(true)}
-              to="/baby-name-poll/ranking"
-            >
+            <Link onClick={() => setCollapsed(true)} to={routes.ranking}>
               Ranking
             </Link>
           </Typography.Text>
 
           {user && (
             <Typography.Text>
-              <Link
-                onClick={() => setCollapsed(true)}
-                to="/baby-name-poll/usuario"
-              >
+              <Link onClick={() => setCollapsed(true)} to={routes.user}>
                 {userId}
               </Link>
             </Typography.Text>
