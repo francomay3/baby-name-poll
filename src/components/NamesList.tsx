@@ -123,7 +123,7 @@ const NamesList = ({
         </Button>
       </Logout>
       <Divider />
-      <Typography.Title level={4}>Como Votar: EJEMPLO</Typography.Title>
+      <Typography.Title level={4}>Como Puntuar: EJEMPLO</Typography.Title>
       <ExampleWrapper>
         <span>Lennartina</span>
         <Explanation>
@@ -155,7 +155,7 @@ const NamesList = ({
         </Explanation>
       </ExampleWrapper>
       <Typography.Title level={5} mark>
-        Podes votar tu preferencia por todos los nombres!
+        Podes dar tu preferencia por todos los nombres!
       </Typography.Title>
       <Typography.Text>
         los mas gustados por la mayoria van a terminar primeros en el ranking!

@@ -22,7 +22,7 @@ const Main = () => {
       />
       <Link to={routes.vote}>
         <Button type="primary" size="large">
-          Votar nombres 📝
+          Puntuar nombres 📝
         </Button>
       </Link>
       <Link to={routes.ranking}>

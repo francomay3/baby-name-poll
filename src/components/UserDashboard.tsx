@@ -34,9 +34,9 @@ const UserDashboard = ({
       <LabelAndText label="Color" text={user?.color || "sin color"} />
       <LabelAndText label="Emoji" text="(funcionalidad en desarrollo 😎)" />
       {/* TODO: Add emoji to user */}
-      <Space>
+      <Space style={{ flexWrap: "wrap" }}>
         <Button type="primary" onClick={() => navigate(routes.vote)}>
-          Seguir votando nombres 📝
+          Seguir puntuando nombres 📝
         </Button>
         <Button
           type="primary"

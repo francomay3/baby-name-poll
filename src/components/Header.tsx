@@ -71,7 +71,7 @@ function Header({
           </Typography.Text>
           <Typography.Text>
             <Link onClick={() => setCollapsed(true)} to={routes.vote}>
-              Votar Nombres
+              Puntuar Nombres
             </Link>
           </Typography.Text>
           <Typography.Text>
