@@ -45,7 +45,7 @@ const Login = ({
 
   const loginAndMove = (userId: string) => {
     login(userId);
-    navigate(routes.vote);
+    navigate(routes.vote.path);
   };
 
   return (

@@ -24,7 +24,7 @@ const UserDashboard = ({
 
   useEffect(() => {
     if (!user) {
-      navigate(routes.login);
+      navigate(routes.login.path);
     }
   }, [user, navigate]);
 
@@ -35,7 +35,7 @@ const UserDashboard = ({
       <LabelAndText label="Emoji" text="(funcionalidad en desarrollo 😎)" />
       {/* TODO: Add emoji to user */}
       <Space style={{ flexWrap: "wrap" }}>
-        <Button type="primary" onClick={() => navigate(routes.vote)}>
+        <Button type="primary" onClick={() => navigate(routes.vote.path)}>
           Seguir puntuando nombres 📝
         </Button>
         <Button

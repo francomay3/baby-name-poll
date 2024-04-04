@@ -20,12 +20,12 @@ const Main = () => {
         src={nata}
         preview={false}
       />
-      <Link to={routes.vote}>
+      <Link to={routes.vote.path}>
         <Button type="primary" size="large">
           Puntuar nombres 📝
         </Button>
       </Link>
-      <Link to={routes.ranking}>
+      <Link to={routes.ranking.path}>
         <Button type="primary" size="large">
           Ver ranking 🏆
         </Button>

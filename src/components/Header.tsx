@@ -47,13 +47,17 @@ function Header({
             onClick={() => setCollapsed(!collapsed)}
           />
         )}
-        <Typography.Title level={4} onClick={() => navigate(routes.home)}>
+        <Typography.Title
+          level={4}
+          onClick={() => navigate(routes.home.path)}
+          style={{ margin: 0 }}
+        >
           Consulta popular para la eleccion del nombre del neonato
         </Typography.Title>
         <Avatar
           user={user}
           userId={userId}
-          onClick={() => navigate(routes.user)}
+          onClick={() => navigate(routes.user.path)}
         />
       </Wrapper>
       <Drawer
@@ -64,29 +68,13 @@ function Header({
         open={!collapsed}
       >
         <Space direction="vertical">
-          <Typography.Text>
-            <Link onClick={() => setCollapsed(true)} to={routes.home}>
-              Home
-            </Link>
-          </Typography.Text>
-          <Typography.Text>
-            <Link onClick={() => setCollapsed(true)} to={routes.vote}>
-              Puntuar Nombres
-            </Link>
-          </Typography.Text>
-          <Typography.Text>
-            <Link onClick={() => setCollapsed(true)} to={routes.ranking}>
-              Ranking
-            </Link>
-          </Typography.Text>
-
-          {user && (
-            <Typography.Text>
-              <Link onClick={() => setCollapsed(true)} to={routes.user}>
-                {userId}
+          {Object.values(routes).map((route) => (
+            <Typography.Text key={route.path}>
+              <Link onClick={() => setCollapsed(true)} to={route.path}>
+                {route.name}
               </Link>
             </Typography.Text>
-          )}
+          ))}
         </Space>
       </Drawer>
     </>

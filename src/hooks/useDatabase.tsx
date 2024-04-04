@@ -25,6 +25,7 @@ export type Vote = {
 
 export type Name = {
   votes: { [userId: string]: Vote };
+  elo?: number;
 };
 
 export type Users = { [userId: string]: User };
@@ -45,6 +46,8 @@ export type SetNewValue = (
 export type SetNewName = (nameId: string) => void;
 
 export type SetNewUser = (userId: string, color: string) => void;
+
+export type SetNewEloRating = (nameId: string, newElo: number) => void;
 
 const useDatabase = () => {
   const [data, setData] = useState<Data>(null);
@@ -70,6 +73,16 @@ const useDatabase = () => {
 
     return () => unsubscribe();
   }, []);
+
+  const syncNewElo = (nameId: string, newElo: number) => {
+    setIsSyncing(true);
+    const nameRef = dbRef(db, `names/${nameId}`);
+    update(nameRef, { elo: newElo })
+      .catch((error) => {
+        console.error("Error updating document: ", error);
+      })
+      .then(() => setIsSyncing(false));
+  };
 
   const syncNewUser = (userId: string, newUser: User) => {
     setIsSyncing(true);
@@ -100,6 +113,20 @@ const useDatabase = () => {
         console.error("Error updating document: ", error);
       })
       .then(() => setIsSyncing(false));
+  };
+
+  const setNewEloRating = (nameId: string, newElo: number) => {
+    if (!nameId || !data || !newElo) return;
+
+    const newData = structuredClone(data);
+
+    if (!newData) {
+      return;
+    }
+
+    newData.names[nameId].elo = newElo;
+    setData(newData);
+    syncNewElo(nameId, newElo);
   };
 
   const setNewValue: SetNewValue = (userId, nameId, value) => {
@@ -155,6 +182,7 @@ const useDatabase = () => {
     setNewName,
     setNewUser,
     setNewValue,
+    setNewEloRating,
   };
 };
 

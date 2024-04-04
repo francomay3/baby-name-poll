@@ -33,3 +33,18 @@ const Layout = ({
 };
 
 export default Layout;
+
+export const Inline = styled.div<{ gap?: string }>`
+  display: flex;
+  gap: ${(props) => props.gap || "1rem"};
+  justify-content: center;
+  align-items: center;
+`;
+
+export const Stack = styled.div<{ gap?: string }>`
+  display: flex;
+  gap: ${(props) => props.gap || "1rem"};
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;

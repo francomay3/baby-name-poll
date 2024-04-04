@@ -92,7 +92,7 @@ const NamesList = ({
 
   useEffect(() => {
     if (!userId) {
-      navigate(routes.login);
+      navigate(routes.login.path);
     }
   }, [userId, navigate]);
 

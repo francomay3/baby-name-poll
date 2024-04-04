@@ -10,18 +10,26 @@ import Main from "./components/Main";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import { routes } from "./constants";
+import Batalla from "./components/Batalla";
 
 const RedirectToHome = () => {
   const navigate = useNavigate();
   useEffect(() => {
-    navigate(routes.home);
+    navigate(routes.home.path);
   }, [navigate]);
   return null;
 };
 
 const App = () => {
-  const { data, loading, error, setNewValue, setNewName, setNewUser } =
-    useDatabase();
+  const {
+    data,
+    loading,
+    error,
+    setNewValue,
+    setNewName,
+    setNewUser,
+    setNewEloRating,
+  } = useDatabase();
   const { userId, login, logout } = useAuth();
 
   const user = userId ? data?.users[userId] || null : null;
@@ -36,10 +44,10 @@ const App = () => {
         error={error}
       >
         <Routes>
-          <Route path={routes.home} element={<Main />} />
-          <Route path="ranking" element={<Ranking data={data} />} />
+          <Route path={routes.home.path} element={<Main />} />
+          <Route path={routes.ranking.path} element={<Ranking data={data} />} />
           <Route
-            path={routes.login}
+            path={routes.login.path}
             element={
               <Login
                 users={data?.users || null}
@@ -49,7 +57,7 @@ const App = () => {
             }
           />
           <Route
-            path={routes.vote}
+            path={routes.vote.path}
             element={
               <NamesList
                 setNewName={setNewName}
@@ -61,10 +69,14 @@ const App = () => {
             }
           />
           <Route
-            path={routes.user}
+            path={routes.user.path}
             element={
               <UserDashboard userId={userId} user={user} logout={logout} />
             }
+          />
+          <Route
+            path={routes.batalla.path}
+            element={<Batalla data={data} setNewEloRating={setNewEloRating} />}
           />
           <Route path="*" element={<RedirectToHome />} />
         </Routes>

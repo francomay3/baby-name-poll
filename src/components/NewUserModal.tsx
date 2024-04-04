@@ -42,7 +42,7 @@ function NewUserModal({ open, close, setNewUser, login }: NewUserModalProps) {
       onOk={() => {
         setNewUser(newUserId, newUserHex);
         login(newUserId);
-        navigate(routes.vote);
+        navigate(routes.vote.path);
       }}
       onCancel={close}
     >
