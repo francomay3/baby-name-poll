@@ -4,7 +4,7 @@ import Login from "./components/Login";
 import NamesList from "./components/NamesList";
 import Layout from "./components/Layout";
 import Ranking from "./components/Ranking";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import UserDashboard from "./components/UserDashboard";
 import Main from "./components/Main";
 import { useNavigate } from "react-router-dom";
@@ -27,7 +27,7 @@ const App = () => {
   const user = userId ? data?.users[userId] || null : null;
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Layout
         userId={userId}
         user={user}
@@ -36,13 +36,10 @@ const App = () => {
         error={error}
       >
         <Routes>
-          <Route path="baby-name-poll" element={<Main />} />
+          <Route path={routes.home} element={<Main />} />
+          <Route path="ranking" element={<Ranking data={data} />} />
           <Route
-            path="baby-name-poll/ranking"
-            element={<Ranking data={data} />}
-          />
-          <Route
-            path="baby-name-poll/login"
+            path={routes.login}
             element={
               <Login
                 users={data?.users || null}
@@ -52,7 +49,7 @@ const App = () => {
             }
           />
           <Route
-            path="baby-name-poll/nombres"
+            path={routes.vote}
             element={
               <NamesList
                 setNewName={setNewName}
@@ -64,7 +61,7 @@ const App = () => {
             }
           />
           <Route
-            path="baby-name-poll/usuario"
+            path={routes.user}
             element={
               <UserDashboard userId={userId} user={user} logout={logout} />
             }
@@ -72,7 +69,7 @@ const App = () => {
           <Route path="*" element={<RedirectToHome />} />
         </Routes>
       </Layout>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
