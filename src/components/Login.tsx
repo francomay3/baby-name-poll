@@ -2,12 +2,13 @@ import { LoginAction, SetNewUser, Users } from "../models";
 import styled from "styled-components";
 import Avatar from "./Avatar";
 import { PlusOutlined } from "@ant-design/icons";
-import { Divider, Button, Typography, Card } from "antd";
+import { Divider, Button, Card } from "antd";
 import { useState } from "react";
 import NewUserModal from "./NewUserModal";
 import useScrollTopOnMount from "../hooks/useScrollTop";
 import { useNavigate } from "react-router-dom";
 import { routes } from "../constants";
+import { Texto, Titulo } from "./Texto";
 
 const UserList = styled.div`
   display: flex;
@@ -45,13 +46,13 @@ const Login = ({
 
   const loginAndMove = (userId: string) => {
     login(userId);
-    navigate(routes.vote.path);
+    navigate(routes.batalla.path);
   };
 
   return (
     <>
       <UserList>
-        <Typography.Title level={4}>Quien te pensas que sos?</Typography.Title>
+        <Titulo>Quien te pensas que sos?</Titulo>
         {Object.keys(users).map((userId) => {
           const user = users[userId];
           return (
@@ -64,7 +65,7 @@ const Login = ({
                   user={user}
                   userId={userId}
                 />
-                <Typography.Text>{userId}</Typography.Text>
+                <Texto>{userId}</Texto>
               </AvatarAndName>
             </Card>
           );
@@ -87,7 +88,7 @@ const Login = ({
                 />
               }
             />
-            <span>Nuevo Usuario</span>
+            <Texto>Nuevo Usuario</Texto>
           </AvatarAndName>
         </Card>
       </UserList>

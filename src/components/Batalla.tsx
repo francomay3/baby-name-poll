@@ -1,91 +1,249 @@
-import { useState } from "react";
-import { Data, Names, SetNewEloRating } from "../models";
+import { useEffect, useRef, useState } from "react";
 import { Inline, Stack } from "./Layout";
+import { topNombres } from "../constants";
+import useDatabase, { Data } from "../hooks/useDatabase";
+import useAuth from "../hooks/useAuth";
+import styled from "styled-components";
+import Progress from "./Progress";
+import { Fireworks } from "fireworks-js";
+import Podio from "./Podio";
+import { Texto, Titulo } from "./Texto";
+
+const FireworksCanvas = styled.canvas`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+`;
+
+const Boton = styled.button`
+  display: flex;
+  justify-content: center;
+  background-color: #e67e23;
+  border: none;
+  padding-block: 1rem;
+  padding-inline: 0.5rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  border-radius: 0.7rem;
+  color: white;
+  &:active {
+    background-color: #e7964f;
+  }
+`;
+
+const Gloves = styled(Texto)`
+  font-size: 1.9rem;
+  & > * {
+    font-size: 1.9rem;
+  }
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+`;
+
+const ProgressWrapper = styled.div`
+  height: 1rem;
+  width: 100%;
+`;
+
+const Buttons = styled(Inline)`
+  gap: 2.2rem;
+  width: 100%;
+  justify-content: space-between;
+  & > button {
+    flex: 1;
+  }
+`;
 
 function calculateNewRating(
   rating: number,
   opponentRating: number,
-  score: number
+  win: boolean | "tie"
 ): number {
-  const kFactor = 32;
+  const winVariable = win === "tie" ? 0.5 : win ? 1 : 0;
+  const k = 32;
   const expectedScore = 1 / (1 + Math.pow(10, (opponentRating - rating) / 400));
-  return Math.floor(rating + kFactor * (score - expectedScore));
+  return rating + k * (winVariable - expectedScore);
 }
 
-const getRandomFighters = (rawNames: Names) => {
-  while (true) {
-    const names = Object.entries(rawNames)
-      .map(([name, nameData]) => {
-        const elo = nameData.elo || 1500;
-        return [name, elo];
-      })
-      .sort((a: any, b: any) => b[1] - a[1]);
-    // replace ],[ with \n
-    console.log(JSON.stringify(names).replace(/],\[/g, "\n"));
-
-    const index1 = Math.floor(Math.random() * names.length);
-    const index2 = Math.floor(Math.random() * names.length);
-    if (index1 === index2) continue;
-    const name1 = names[index1];
-    const name2 = names[index2];
-    return [name1, name2];
+const getPairs = (arr: string[]) => {
+  const pairs = [];
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = i + 1; j < arr.length; j++) {
+      pairs.push([arr[i], arr[j]]);
+    }
   }
+  return pairs
+    .map((pair) => pair.sort(() => Math.random() - 0.5))
+    .sort(() => Math.random() - 0.5);
 };
 
-const Batalla = ({
-  data,
-  setNewEloRating,
-}: {
-  data: Data;
-  setNewEloRating: SetNewEloRating;
-}) => {
-  if (!data) return <div>mmm... where is the data?</div>;
-  const [fighters, setFighters] = useState<(string | number)[][]>(
-    getRandomFighters(data.names)
+const pairs = getPairs(topNombres);
+
+const Batalla = ({ data }: { data: Data }) => {
+  const { userId, RedirectToLogin } = useAuth();
+  const [index, setIndex] = useState(0);
+  const [quiereVolverAVotar, setQuiereVolverAVotar] = useState(false);
+  const { setNewRatings } = useDatabase();
+  const container = useRef<HTMLCanvasElement>(null);
+  const finished = pairs.length === index;
+  useEffect(() => {
+    if (userId && finished && container.current) {
+      const newObj: { [key: string]: number } = {};
+      eloRatings.forEach(([name, rating]) => {
+        newObj[name] = rating;
+      });
+      setNewRatings(userId, newObj);
+
+      const fireworks = new Fireworks(container.current);
+      fireworks.start();
+    }
+  }, [finished, container.current, userId]);
+  const [eloRatings, setEloRatings] = useState<[string, number][]>(
+    topNombres.map((name) => [name, 1000])
   );
 
-  const [fighter0, fighter1] = fighters;
-  const [name0, rating0] = fighter0;
-  const [name1, rating1] = fighter1;
+  useEffect(() => {
+    if (!data || !userId) return;
+    const userRatings = data.users[userId]?.ratings;
+    if (!userRatings) return;
+    setEloRatings(Object.entries(userRatings));
+  }, [userId, data]);
 
-  const saveResult = (winner: number) => {
-    const newRating0 = calculateNewRating(
-      rating0 as number,
-      rating1 as number,
-      winner === 0 ? 1 : 0
+  const handleEloRating = (name: string, newScore: number) => {
+    setEloRatings((ratings) =>
+      ratings.map(([n, r]) => {
+        if (n === name) {
+          return [n, newScore];
+        }
+        return [n, r];
+      })
     );
-    const newRating1 = calculateNewRating(
-      rating1 as number,
-      rating0 as number,
-      winner === 1 ? 1 : 0
-    );
-    setNewEloRating(name0 as string, newRating0);
-    setNewEloRating(name1 as string, newRating1);
-
-    const newFighters = getRandomFighters(data.names);
-    setFighters(newFighters);
   };
 
-  return (
-    <Stack style={{ alignItems: "stretch" }}>
-      <Inline>
-        <span
-          onClick={() => saveResult(0)}
-          style={{ flex: 1, textAlign: "end" }}
-        >
-          {name0}
-        </span>
-        <span>🥊</span>
-        <span onClick={() => saveResult(1)} style={{ flex: 1 }}>
-          {name1}
-        </span>
-      </Inline>
-      <span
-        onClick={() => setFighters(getRandomFighters(data.names))}
-        style={{ textAlign: "center" }}
+  if (!userId) {
+    return <RedirectToLogin />;
+  }
+
+  const VotosDelUsuario = () => {
+    return (
+      <Stack
+        gap="0.25rem"
+        style={{
+          alignItems: "flex-start",
+        }}
       >
-        NO ME PUEDO DECIDIR!
-      </span>
+        {eloRatings
+          .sort(([, a], [, b]) => b - a)
+          .map(([name], index) => (
+            <Texto key={name}>
+              <b>
+                {index + 1}. {name}
+              </b>
+            </Texto>
+          ))}
+      </Stack>
+    );
+  };
+
+  const userCannotVote = (data: Data, userId: string) => {
+    const yaVoto = data?.users[userId]?.ratings ? true : false;
+    return yaVoto && !quiereVolverAVotar;
+  };
+
+  if (finished) {
+    return (
+      <Stack style={{ paddingTop: "1rem" }}>
+        <FireworksCanvas
+          ref={container}
+          style={{ pointerEvents: "none" }}
+        ></FireworksCanvas>
+        <Titulo>¡Terminaste!</Titulo>
+        <Texto>gracias por participar, gato</Texto>
+        <Texto>Estos son tus nombres favoritos:</Texto>
+        <VotosDelUsuario />
+        <Texto>
+          y así queda el ranking general, con los votos de todos los usuarios:
+        </Texto>
+        <Podio data={data} />
+      </Stack>
+    );
+  }
+
+  if (userCannotVote(data, userId)) {
+    return (
+      <Stack>
+        <Titulo>Ehh.. vos ya votaste, gato</Titulo>
+        <Texto>Así habian quedado tus votos, por si te olvidaste:</Texto>
+        <Inline>
+          <VotosDelUsuario />
+
+          <Boton
+            onClick={() => setQuiereVolverAVotar(true)}
+            style={{ backgroundColor: "#6a6add" }}
+          >
+            Quiero volver a votar 😼
+          </Boton>
+        </Inline>
+      </Stack>
+    );
+  }
+
+  const nombre1 = pairs[index][0];
+  const score1 = eloRatings.find(([name]) => name === nombre1)?.[1] ?? 1000;
+
+  const nombre2 = pairs[index][1];
+  const score2 = eloRatings.find(([name]) => name === nombre2)?.[1] ?? 1000;
+
+  const handleWinner = (winner: 0 | 1 | "tie") => {
+    const nombre1nuevoScore = calculateNewRating(
+      score1,
+      score2,
+      winner === "tie" ? winner : winner === 0
+    );
+    const nombre2nuevoScore = calculateNewRating(
+      score2,
+      score1,
+      winner === "tie" ? winner : winner === 1
+    );
+    handleEloRating(nombre1, nombre1nuevoScore);
+    handleEloRating(nombre2, nombre2nuevoScore);
+    setIndex(index + 1);
+  };
+
+  const progreso = Math.floor((index / pairs.length) * 100);
+
+  return (
+    <Stack style={{ paddingTop: "1rem" }}>
+      <Titulo>Tocá el nombre que mas te guste de los dos</Titulo>
+      <Buttons>
+        <Boton onClick={() => handleWinner(0)}>{nombre1}</Boton>
+        <Gloves>
+          <Texto
+            className="izq"
+            style={{
+              display: "inline-block",
+              transform: "scaleX(-1)",
+            }}
+          >
+            🥊
+          </Texto>
+          🥊
+        </Gloves>
+        <Boton onClick={() => handleWinner(1)}>{nombre2}</Boton>
+      </Buttons>
+      <Boton
+        style={{ backgroundColor: "#6a6add" }}
+        onClick={() => handleWinner("tie")}
+      >
+        Empate 🥱
+      </Boton>
+      <ProgressWrapper>
+        <Texto>Progreso: {progreso}%</Texto>
+        <Progress max={pairs.length} value={index} />
+      </ProgressWrapper>
     </Stack>
   );
 };

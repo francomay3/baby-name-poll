@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { LoginAction, SetNewUser } from "../models";
 import { routes } from "../constants";
 import { useNavigate } from "react-router-dom";
+import { Texto } from "./Texto";
 
 const ModalInner = styled.div`
   display: grid;
@@ -42,18 +43,18 @@ function NewUserModal({ open, close, setNewUser, login }: NewUserModalProps) {
       onOk={() => {
         setNewUser(newUserId, newUserHex);
         login(newUserId);
-        navigate(routes.vote.path);
+        navigate(routes.batalla.path);
       }}
       onCancel={close}
     >
       <ModalInner>
-        <span>Nombre</span>
+        <Texto>Nombre</Texto>
         <Input
           placeholder="Javier Milei"
           value={newUserId}
           onChange={(e) => setNewUserId(e.target.value)}
         />
-        <span>Color</span>
+        <Texto>Color</Texto>
         <ColorPicker
           value={newUserColor}
           onChange={(color, hex) => {

@@ -1,10 +1,10 @@
-import { Typography } from "antd";
+import { Titulo } from "./Texto";
 
 const Error = () => {
   return (
     <>
-      <Typography.Title>404</Typography.Title>
-      <Typography.Title level={2}>Page not found</Typography.Title>
+      <Titulo>404</Titulo>
+      <Titulo>Page not found</Titulo>
     </>
   );
 };

@@ -3,9 +3,10 @@ import { User } from "../models";
 import Avatar from "./Avatar";
 import { MenuUnfoldOutlined, MenuFoldOutlined } from "@ant-design/icons";
 import { useState } from "react";
-import { Drawer, Space, Typography } from "antd";
+import { Drawer, Space } from "antd";
 import { Link, useNavigate } from "react-router-dom";
 import { routes } from "../constants";
+import { Texto } from "./Texto";
 
 const Wrapper = styled.header`
   padding-block: 0.5rem;
@@ -47,13 +48,9 @@ function Header({
             onClick={() => setCollapsed(!collapsed)}
           />
         )}
-        <Typography.Title
-          level={4}
-          onClick={() => navigate(routes.home.path)}
-          style={{ margin: 0 }}
-        >
+        <Texto onClick={() => navigate(routes.home.path)} style={{ margin: 0 }}>
           Consulta popular para la eleccion del nombre del neonato
-        </Typography.Title>
+        </Texto>
         <Avatar
           user={user}
           userId={userId}
@@ -69,11 +66,11 @@ function Header({
       >
         <Space direction="vertical">
           {Object.values(routes).map((route) => (
-            <Typography.Text key={route.path}>
+            <Texto key={route.path}>
               <Link onClick={() => setCollapsed(true)} to={route.path}>
                 {route.name}
               </Link>
-            </Typography.Text>
+            </Texto>
           ))}
         </Space>
       </Drawer>

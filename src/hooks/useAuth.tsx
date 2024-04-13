@@ -1,7 +1,11 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { routes } from "../constants";
 
 const useAuth = () => {
-  const [userId, setUserId] = useState<string | null>(null);
+  const [userId, setUserId] = useState<string | null>(
+    localStorage.getItem("user")
+  );
 
   useEffect(() => {
     const storedUser = localStorage.getItem("user");
@@ -20,7 +24,23 @@ const useAuth = () => {
     setUserId(null);
   };
 
-  return { userId, login, logout };
+  const RedirectToHome = () => {
+    const navigate = useNavigate();
+    useEffect(() => {
+      navigate(routes.home.path);
+    }, [navigate]);
+    return null;
+  };
+
+  const RedirectToLogin = () => {
+    const navigate = useNavigate();
+    useEffect(() => {
+      navigate(routes.login.path);
+    }, [navigate]);
+    return null;
+  };
+
+  return { userId, login, logout, RedirectToHome, RedirectToLogin };
 };
 
 export type LoginAction = ReturnType<typeof useAuth>["login"];

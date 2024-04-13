@@ -8,7 +8,7 @@ export type {
   SetNewValue,
   SetNewName,
   SetNewUser,
-  SetNewEloRating,
+  SetNewRatings as SetNewEloRating,
 } from "./hooks/useDatabase";
 
 export type { LoginAction, LogoutAction } from "./hooks/useAuth";

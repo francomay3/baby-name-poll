@@ -1,16 +1,17 @@
 import nata from "../assets/nata.jpeg";
-import { Image, Typography, Space, Button } from "antd";
+import { Image, Space, Button } from "antd";
 import { Link } from "react-router-dom";
 import { routes } from "../constants";
+import { Texto, Titulo } from "./Texto";
 
 const Main = () => {
   return (
     <Space direction="vertical" align="center">
-      <Typography.Title level={1}>Hola! 👋🏻</Typography.Title>
-      <Typography.Text>
+      <Titulo>Hola! 👋🏻</Titulo>
+      <Texto>
         Este es un proyecto de consulta popular para la eleccion del nombre del
         nuevo <s>hamster</s> bebe de nata (y franco). 🍼
-      </Typography.Text>
+      </Texto>
 
       <Image
         style={{
@@ -20,9 +21,9 @@ const Main = () => {
         src={nata}
         preview={false}
       />
-      <Link to={routes.vote.path}>
+      <Link to={routes.batalla.path}>
         <Button type="primary" size="large">
-          Puntuar nombres 📝
+          Ir a la batalla de nombres 🥊
         </Button>
       </Link>
       <Link to={routes.ranking.path}>

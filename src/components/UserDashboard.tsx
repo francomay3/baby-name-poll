@@ -2,13 +2,14 @@ import { useEffect } from "react";
 import { LogoutAction } from "../hooks/useAuth";
 import { useNavigate } from "react-router-dom";
 import { User } from "../models";
-import { Typography, Space, Button } from "antd";
+import { Space, Button } from "antd";
 import { routes } from "../constants";
+import { Texto } from "./Texto";
 
 const LabelAndText = ({ label, text }: { label: string; text: string }) => (
-  <Typography.Text>
-    <Typography.Text strong>{label}:</Typography.Text> {text}
-  </Typography.Text>
+  <Texto>
+    <Texto>{label}:</Texto> {text}
+  </Texto>
 );
 
 const UserDashboard = ({
@@ -35,8 +36,8 @@ const UserDashboard = ({
       <LabelAndText label="Emoji" text="(funcionalidad en desarrollo 😎)" />
       {/* TODO: Add emoji to user */}
       <Space style={{ flexWrap: "wrap" }}>
-        <Button type="primary" onClick={() => navigate(routes.vote.path)}>
-          Seguir puntuando nombres 📝
+        <Button type="primary" onClick={() => navigate(routes.batalla.path)}>
+          Ir a la batalla de nombres 🥊
         </Button>
         <Button
           type="primary"
