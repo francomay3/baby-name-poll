@@ -8,18 +8,24 @@ const Columna1 = styled.div`
   height: 250px;
   background-color: #ffd700;
   width: 100%;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
 `;
 
 const Columna2 = styled.div`
   height: 180px;
   background-color: #c0c0c0;
   width: 100%;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
 `;
 
 const Columna3 = styled.div`
   height: 100px;
   background-color: #cd7f32;
   width: 100%;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
 `;
 
 const Wrapper = styled(Inline)`
