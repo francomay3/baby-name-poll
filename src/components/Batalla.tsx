@@ -8,6 +8,7 @@ import Progress from "./Progress";
 import { Fireworks } from "fireworks-js";
 import Podio from "./Podio";
 import { Texto, Titulo } from "./Texto";
+import VotosDelUsuario from "./VotosDelUsuario";
 
 const FireworksCanvas = styled.canvas`
   position: fixed;
@@ -127,27 +128,6 @@ const Batalla = ({ data }: { data: Data }) => {
     return <RedirectToLogin />;
   }
 
-  const VotosDelUsuario = () => {
-    return (
-      <Stack
-        gap="0.25rem"
-        style={{
-          alignItems: "flex-start",
-        }}
-      >
-        {eloRatings
-          .sort(([, a], [, b]) => b - a)
-          .map(([name], index) => (
-            <Texto key={name}>
-              <b>
-                {index + 1}. {name}
-              </b>
-            </Texto>
-          ))}
-      </Stack>
-    );
-  };
-
   const userCannotVote = (data: Data, userId: string) => {
     const yaVoto = data?.users[userId]?.ratings ? true : false;
     return yaVoto && !quiereVolverAVotar;
@@ -163,7 +143,7 @@ const Batalla = ({ data }: { data: Data }) => {
         <Titulo>¡Terminaste!</Titulo>
         <Texto>gracias por participar, gato</Texto>
         <Texto>Estos son tus nombres favoritos:</Texto>
-        <VotosDelUsuario />
+        <VotosDelUsuario userId={userId} eloRatings={eloRatings} />
         <Texto>
           y así queda el ranking general, con los votos de todos los usuarios:
         </Texto>
@@ -177,16 +157,15 @@ const Batalla = ({ data }: { data: Data }) => {
       <Stack>
         <Titulo>Ehh.. vos ya votaste, gato</Titulo>
         <Texto>Así habian quedado tus votos, por si te olvidaste:</Texto>
-        <Inline>
-          <VotosDelUsuario />
-
+        <Stack>
+          <VotosDelUsuario data={data} userId={userId} />
           <Boton
             onClick={() => setQuiereVolverAVotar(true)}
             style={{ backgroundColor: "#6a6add" }}
           >
             Quiero volver a votar 😼
           </Boton>
-        </Inline>
+        </Stack>
       </Stack>
     );
   }

@@ -35,7 +35,6 @@ const Wrapper = styled(Inline)`
   align-items: flex-end;
   width: 100%;
   gap: 8px;
-  margin-top: 2rem;
 `;
 
 const Podio = ({ data }: { data: Data }) => {
